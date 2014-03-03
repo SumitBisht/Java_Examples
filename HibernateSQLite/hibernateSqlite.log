@@ -1,0 +1,1836 @@
+18:57:50,326  INFO Environment:479 : Hibernate 3.1.2
+18:57:50,334  INFO Environment:509 : hibernate.properties not found
+18:57:50,336  INFO Environment:525 : using CGLIB reflection optimizer
+18:57:50,338  INFO Environment:555 : using JDK 1.4 java.sql.Timestamp handling
+18:57:50,377  INFO Configuration:1308 : configuring from resource: /hibernate.cfg.xml
+18:57:50,377  INFO Configuration:1285 : Configuration resource: /hibernate.cfg.xml
+18:57:50,420 DEBUG DTDEntityResolver:42 : trying to locate http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath under org/hibernate/
+18:57:50,421 DEBUG DTDEntityResolver:56 : found http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath
+18:57:50,443 DEBUG Configuration:1269 : show_sql=true
+18:57:50,444 DEBUG Configuration:1269 : format_sql=true
+18:57:50,444 DEBUG Configuration:1269 : dialect=dialect.SQLiteDialect
+18:57:50,444 DEBUG Configuration:1269 : connection.driver_class=org.sqlite.JDBC
+18:57:50,445 DEBUG Configuration:1269 : connection.url=jdbc:sqlite:1.db
+18:57:50,445 DEBUG Configuration:1269 : connection.username=
+18:57:50,446 DEBUG Configuration:1269 : connection.password=
+18:57:50,446 DEBUG Configuration:1464 : null<-org.dom4j.tree.DefaultAttribute@3f5735fd [Attribute: name resource value "User.hbm.xml"]
+18:57:50,447  INFO Configuration:469 : Reading mappings from resource: User.hbm.xml
+18:57:50,448 DEBUG DTDEntityResolver:42 : trying to locate http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd in classpath under org/hibernate/
+18:57:50,449 DEBUG DTDEntityResolver:56 : found http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd in classpath
+18:57:50,537  INFO HbmBinder:309 : Mapping class: model.User -> users
+18:57:50,542 DEBUG HbmBinder:1261 : Mapped property: id -> id
+18:57:50,549 DEBUG HbmBinder:1261 : Mapped property: name -> name
+18:57:50,549 DEBUG HbmBinder:1261 : Mapped property: password -> password
+18:57:50,550  INFO Configuration:1419 : Configured SessionFactory: null
+18:57:50,550 DEBUG Configuration:1420 : properties: {hibernate.connection.password=, java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=/home/sumit/jdk1.7.0_51/jre/lib/amd64, java.vm.version=24.51-b03, hibernate.connection.username=, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=IN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/sumit/hdbstudio/HibernateSQLite, java.runtime.version=1.7.0_51-b13, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/home/sumit/jdk1.7.0_51/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Linux, sun.jnu.encoding=UTF-8, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=51.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=3.8.0-35-generic, connection.password=, user.home=/home/sumit, user.timezone=Asia/Kolkata, connection.username=, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.7, hibernate.format_sql=true, hibernate.connection.driver_class=org.sqlite.JDBC, show_sql=true, user.name=sumit, java.class.path=/home/sumit/hdbstudio/HibernateSQLite/target/test-classes:/home/sumit/hdbstudio/HibernateSQLite/target/classes:/home/sumit/hdbstudio/HibernateSQLite/antlr.jar:/home/sumit/hdbstudio/HibernateSQLite/asm.jar:/home/sumit/hdbstudio/HibernateSQLite/asm-attrs.jar:/home/sumit/hdbstudio/HibernateSQLite/c3p0-0.9.0.jar:/home/sumit/hdbstudio/HibernateSQLite/cglib-2.1.3.jar:/home/sumit/hdbstudio/HibernateSQLite/commons-collections-2.1.1.jar:/home/sumit/hdbstudio/HibernateSQLite/commons-logging-1.0.4.jar:/home/sumit/hdbstudio/HibernateSQLite/dom4j-1.6.1.jar:/home/sumit/hdbstudio/HibernateSQLite/ehcache-1.1.jar:/home/sumit/hdbstudio/HibernateSQLite/hibernate3.jar:/home/sumit/hdbstudio/HibernateSQLite/jta.jar:/home/sumit/hdbstudio/HibernateSQLite/junit-4.4.jar:/home/sumit/hdbstudio/HibernateSQLite/log4j-1.2.9.jar:/home/sumit/hdbstudio/HibernateSQLite/xml-apis.jar:/home/sumit/hdbstudio/HibernateSQLite/sqlite-jdbc-3.6.0.jar:/home/sumit/sap/hdbstudio/configuration/org.eclipse.osgi/bundles/436/1/.cp/:/home/sumit/sap/hdbstudio/configuration/org.eclipse.osgi/bundles/435/1/.cp/, format_sql=true, hibernate.show_sql=true, java.vm.specification.version=1.7, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 54466 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -classNames test.TestSaveUser, java.home=/home/sumit/jdk1.7.0_51/jre, sun.arch.data.model=64, hibernate.connection.url=jdbc:sqlite:1.db, hibernate.dialect=dialect.SQLiteDialect, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.X11.XToolkit, hibernate.cglib.use_reflection_optimizer=true, java.vm.info=mixed mode, java.version=1.7.0_51, java.ext.dirs=/home/sumit/jdk1.7.0_51/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/home/sumit/jdk1.7.0_51/jre/lib/resources.jar:/home/sumit/jdk1.7.0_51/jre/lib/rt.jar:/home/sumit/jdk1.7.0_51/jre/lib/sunrsasign.jar:/home/sumit/jdk1.7.0_51/jre/lib/jsse.jar:/home/sumit/jdk1.7.0_51/jre/lib/jce.jar:/home/sumit/jdk1.7.0_51/jre/lib/charsets.jar:/home/sumit/jdk1.7.0_51/jre/lib/jfr.jar:/home/sumit/jdk1.7.0_51/jre/classes, java.vendor=Oracle Corporation, connection.driver_class=org.sqlite.JDBC, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=gnome, connection.url=jdbc:sqlite:1.db, dialect=dialect.SQLiteDialect, sun.cpu.isalist=}
+18:57:50,551 DEBUG Configuration:1167 : Preparing to build session factory with filters : {}
+18:57:50,551 DEBUG Configuration:1002 : processing extends queue
+18:57:50,551 DEBUG Configuration:1006 : processing collection mappings
+18:57:50,552 DEBUG Configuration:1017 : processing native query and ResultSetMapping mappings
+18:57:50,552 DEBUG Configuration:1025 : processing association property references
+18:57:50,552 DEBUG Configuration:1047 : processing foreign key constraints
+18:57:50,597  INFO DriverManagerConnectionProvider:41 : Using Hibernate built-in connection pool (not for production use!)
+18:57:50,597  INFO DriverManagerConnectionProvider:42 : Hibernate connection pool size: 20
+18:57:50,597  INFO DriverManagerConnectionProvider:45 : autocommit mode: false
+18:57:50,601  INFO DriverManagerConnectionProvider:80 : using driver: org.sqlite.JDBC at URL: jdbc:sqlite:1.db
+18:57:50,602  INFO DriverManagerConnectionProvider:83 : connection properties: {user=, password=}
+18:57:50,602 DEBUG DriverManagerConnectionProvider:93 : total checked-out connections: 0
+18:57:50,602 DEBUG DriverManagerConnectionProvider:109 : opening new JDBC connection
+18:57:50,803 DEBUG DriverManagerConnectionProvider:115 : created connection to: jdbc:sqlite:1.db, Isolation Level: 8
+18:57:50,805  INFO SettingsFactory:77 : RDBMS: SQLite, version: 3.6.0
+18:57:50,806  INFO SettingsFactory:78 : JDBC driver: SQLiteJDBC, version: native
+18:57:50,807 DEBUG DriverManagerConnectionProvider:129 : returning connection to pool, pool size: 1
+18:57:50,823  INFO Dialect:103 : Using dialect: dialect.SQLiteDialect
+18:57:50,827  INFO TransactionFactoryFactory:31 : Using default transaction strategy (direct JDBC transactions)
+18:57:50,829  INFO TransactionManagerLookupFactory:33 : No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+18:57:50,829  INFO SettingsFactory:125 : Automatic flush during beforeCompletion(): disabled
+18:57:50,830  INFO SettingsFactory:129 : Automatic session close at end of transaction: disabled
+18:57:50,830  INFO SettingsFactory:144 : Scrollable result sets: disabled
+18:57:50,831 DEBUG SettingsFactory:148 : Wrap result sets: disabled
+18:57:50,831  INFO SettingsFactory:152 : JDBC3 getGeneratedKeys(): disabled
+18:57:50,831  INFO SettingsFactory:160 : Connection release mode: auto
+18:57:50,832  INFO SettingsFactory:187 : Default batch fetch size: 1
+18:57:50,833  INFO SettingsFactory:191 : Generate SQL with comments: disabled
+18:57:50,833  INFO SettingsFactory:195 : Order SQL updates by primary key: disabled
+18:57:50,834  INFO SettingsFactory:338 : Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+18:57:50,836  INFO ASTQueryTranslatorFactory:24 : Using ASTQueryTranslatorFactory
+18:57:50,837  INFO SettingsFactory:203 : Query language substitutions: {}
+18:57:50,838  INFO SettingsFactory:209 : Second-level cache: enabled
+18:57:50,838  INFO SettingsFactory:213 : Query cache: disabled
+18:57:50,839  INFO SettingsFactory:325 : Cache provider: org.hibernate.cache.EhCacheProvider
+18:57:50,842  INFO SettingsFactory:228 : Optimize cache for minimal puts: disabled
+18:57:50,842  INFO SettingsFactory:237 : Structured second-level cache entries: disabled
+18:57:50,844 DEBUG SQLExceptionConverterFactory:52 : Using dialect defined converter
+18:57:50,846  INFO SettingsFactory:257 : Echoing all SQL to stdout
+18:57:50,846  INFO SettingsFactory:264 : Statistics: disabled
+18:57:50,847  INFO SettingsFactory:268 : Deleted entity synthetic identifier rollback: disabled
+18:57:50,847  INFO SettingsFactory:283 : Default entity-mode: pojo
+18:57:50,869  INFO SessionFactoryImpl:153 : building session factory
+18:57:50,870 DEBUG SessionFactoryImpl:164 : Session factory constructed with filter configurations : {}
+18:57:50,870 DEBUG SessionFactoryImpl:167 : instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.password=, sun.boot.library.path=/home/sumit/jdk1.7.0_51/jre/lib/amd64, java.vm.version=24.51-b03, hibernate.connection.username=, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=IN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/sumit/hdbstudio/HibernateSQLite, java.runtime.version=1.7.0_51-b13, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/home/sumit/jdk1.7.0_51/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Linux, sun.jnu.encoding=UTF-8, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=51.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=3.8.0-35-generic, user.home=/home/sumit, connection.password=, user.timezone=Asia/Kolkata, java.awt.printerjob=sun.print.PSPrinterJob, connection.username=, java.specification.version=1.7, file.encoding=UTF-8, hibernate.format_sql=true, hibernate.connection.driver_class=org.sqlite.JDBC, show_sql=true, java.class.path=/home/sumit/hdbstudio/HibernateSQLite/target/test-classes:/home/sumit/hdbstudio/HibernateSQLite/target/classes:/home/sumit/hdbstudio/HibernateSQLite/antlr.jar:/home/sumit/hdbstudio/HibernateSQLite/asm.jar:/home/sumit/hdbstudio/HibernateSQLite/asm-attrs.jar:/home/sumit/hdbstudio/HibernateSQLite/c3p0-0.9.0.jar:/home/sumit/hdbstudio/HibernateSQLite/cglib-2.1.3.jar:/home/sumit/hdbstudio/HibernateSQLite/commons-collections-2.1.1.jar:/home/sumit/hdbstudio/HibernateSQLite/commons-logging-1.0.4.jar:/home/sumit/hdbstudio/HibernateSQLite/dom4j-1.6.1.jar:/home/sumit/hdbstudio/HibernateSQLite/ehcache-1.1.jar:/home/sumit/hdbstudio/HibernateSQLite/hibernate3.jar:/home/sumit/hdbstudio/HibernateSQLite/jta.jar:/home/sumit/hdbstudio/HibernateSQLite/junit-4.4.jar:/home/sumit/hdbstudio/HibernateSQLite/log4j-1.2.9.jar:/home/sumit/hdbstudio/HibernateSQLite/xml-apis.jar:/home/sumit/hdbstudio/HibernateSQLite/sqlite-jdbc-3.6.0.jar:/home/sumit/sap/hdbstudio/configuration/org.eclipse.osgi/bundles/436/1/.cp/:/home/sumit/sap/hdbstudio/configuration/org.eclipse.osgi/bundles/435/1/.cp/, user.name=sumit, format_sql=true, hibernate.show_sql=true, java.vm.specification.version=1.7, sun.arch.data.model=64, java.home=/home/sumit/jdk1.7.0_51/jre, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 54466 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -classNames test.TestSaveUser, hibernate.dialect=dialect.SQLiteDialect, hibernate.connection.url=jdbc:sqlite:1.db, java.specification.vendor=Oracle Corporation, user.language=en, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, hibernate.cglib.use_reflection_optimizer=true, java.version=1.7.0_51, java.ext.dirs=/home/sumit/jdk1.7.0_51/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/home/sumit/jdk1.7.0_51/jre/lib/resources.jar:/home/sumit/jdk1.7.0_51/jre/lib/rt.jar:/home/sumit/jdk1.7.0_51/jre/lib/sunrsasign.jar:/home/sumit/jdk1.7.0_51/jre/lib/jsse.jar:/home/sumit/jdk1.7.0_51/jre/lib/jce.jar:/home/sumit/jdk1.7.0_51/jre/lib/charsets.jar:/home/sumit/jdk1.7.0_51/jre/lib/jfr.jar:/home/sumit/jdk1.7.0_51/jre/classes, java.vendor=Oracle Corporation, file.separator=/, connection.driver_class=org.sqlite.JDBC, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=gnome, connection.url=jdbc:sqlite:1.db, sun.cpu.isalist=, dialect=dialect.SQLiteDialect}
+18:57:50,873 DEBUG CacheManager:191 : Creating new CacheManager with default config
+18:57:50,876 DEBUG CacheManager:164 : Configuring ehcache from classpath.
+18:57:50,879  WARN Configurator:126 : No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/home/sumit/hdbstudio/HibernateSQLite/ehcache-1.1.jar!/ehcache-failsafe.xml
+18:57:50,886 DEBUG Configuration$DiskStore:185 : Disk Store Path: /tmp
+18:57:51,027 DEBUG AbstractEntityPersister:2447 : Static SQL for entity: model.User
+18:57:51,027 DEBUG AbstractEntityPersister:2449 :  Version select: select id from users where id =?
+18:57:51,028 DEBUG AbstractEntityPersister:2450 :  Snapshot select: select user_.id, user_.name as name0_, user_.password as password0_ from users user_ where user_.id=?
+18:57:51,028 DEBUG AbstractEntityPersister:2452 :  Insert 0: insert into users (name, password, id) values (?, ?, ?)
+18:57:51,028 DEBUG AbstractEntityPersister:2453 :  Update 0: update users set name=?, password=? where id=?
+18:57:51,028 DEBUG AbstractEntityPersister:2454 :  Delete 0: delete from users where id=?
+18:57:51,028 DEBUG AbstractEntityPersister:2457 :  Identity insert: insert into users (name, password) values (?, ?)
+18:57:51,039 DEBUG EntityLoader:79 : Static select for entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+18:57:51,039 DEBUG EntityLoader:79 : Static select for entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+18:57:51,040 DEBUG EntityLoader:79 : Static select for entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+18:57:51,040 DEBUG EntityLoader:79 : Static select for entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+18:57:51,050 DEBUG EntityLoader:67 : Static select for action ACTION_MERGE on entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+18:57:51,051 DEBUG EntityLoader:67 : Static select for action ACTION_REFRESH on entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+18:57:51,052 DEBUG SessionFactoryObjectFactory:39 : initializing class SessionFactoryObjectFactory
+18:57:51,053 DEBUG SessionFactoryObjectFactory:76 : registered: ff8081814488210b014488210c0b0000 (unnamed)
+18:57:51,054  INFO SessionFactoryObjectFactory:82 : Not binding factory to JNDI, no JNDI name configured
+18:57:51,054 DEBUG SessionFactoryImpl:292 : instantiated session factory
+18:57:51,054 DEBUG SessionFactoryImpl:353 : Checking 0 named HQL queries
+18:57:51,055 DEBUG SessionFactoryImpl:373 : Checking 0 named SQL queries
+18:57:51,073 DEBUG SessionImpl:273 : opened session at timestamp: 5709222998241280
+18:57:51,074 DEBUG JDBCTransaction:54 : begin
+18:57:51,074 DEBUG ConnectionManager:358 : opening JDBC connection
+18:57:51,074 DEBUG DriverManagerConnectionProvider:93 : total checked-out connections: 0
+18:57:51,074 DEBUG DriverManagerConnectionProvider:99 : using pooled JDBC connection, pool size: 0
+18:57:51,075 DEBUG JDBCTransaction:59 : current autocommit status: false
+18:57:51,075 DEBUG JDBCContext:190 : after transaction begin
+18:57:51,076 DEBUG DefaultSaveOrUpdateEventListener:161 : saving transient instance
+18:57:51,077 DEBUG AbstractSaveEventListener:139 : saving [model.User#<null>]
+18:57:51,077 DEBUG AbstractSaveEventListener:221 : executing insertions
+18:57:51,082 DEBUG AbstractEntityPersister:1941 : Inserting entity: model.User (native id)
+18:57:51,082 DEBUG AbstractBatcher:311 : about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+18:57:51,084 DEBUG SQL:346 : 
+    insert 
+    into
+        users
+        (name, password) 
+    values
+        (?, ?)
+18:57:51,084 DEBUG AbstractBatcher:424 : preparing statement
+18:57:51,088 DEBUG AbstractEntityPersister:1821 : Dehydrating entity: [model.User#<null>]
+18:57:51,089 DEBUG StringType:79 : binding 'apple' to parameter: 1
+18:57:51,089 DEBUG StringType:79 : binding '123456' to parameter: 2
+18:57:51,089 DEBUG AbstractBatcher:319 : about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+18:57:51,090 DEBUG AbstractBatcher:470 : closing statement
+18:57:51,090 DEBUG AbstractBatcher:311 : about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+18:57:51,090 DEBUG SQL:346 : 
+    select
+        last_insert_rowid()
+18:57:51,091 DEBUG AbstractBatcher:424 : preparing statement
+18:57:51,091 DEBUG IdentifierGeneratorFactory:37 : Natively generated identity: 7
+18:57:51,091 DEBUG AbstractBatcher:319 : about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+18:57:51,092 DEBUG AbstractBatcher:470 : closing statement
+18:57:51,094 DEBUG JDBCTransaction:103 : commit
+18:57:51,094 DEBUG SessionImpl:355 : automatically flushing session
+18:57:51,094 DEBUG AbstractFlushingEventListener:58 : flushing session
+18:57:51,095 DEBUG AbstractFlushingEventListener:111 : processing flush-time cascades
+18:57:51,095 DEBUG AbstractFlushingEventListener:153 : dirty checking collections
+18:57:51,095 DEBUG AbstractFlushingEventListener:170 : Flushing entities and processing referenced collections
+18:57:51,098 DEBUG AbstractFlushingEventListener:209 : Processing unreferenced collections
+18:57:51,098 DEBUG AbstractFlushingEventListener:223 : Scheduling collection removes/(re)creates/updates
+18:57:51,098 DEBUG AbstractFlushingEventListener:85 : Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+18:57:51,099 DEBUG AbstractFlushingEventListener:91 : Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+18:57:51,100 DEBUG Printer:83 : listing entities:
+18:57:51,100 DEBUG Printer:90 : model.User{id=7, name=apple, password=123456}
+18:57:51,100 DEBUG AbstractFlushingEventListener:289 : executing flush
+18:57:51,100 DEBUG AbstractFlushingEventListener:316 : post flush
+18:57:51,101 DEBUG JDBCContext:181 : before transaction completion
+18:57:51,101 DEBUG SessionImpl:411 : before transaction completion
+18:57:51,224 DEBUG JDBCTransaction:116 : committed JDBC Connection
+18:57:51,224 DEBUG JDBCContext:195 : after transaction completion
+18:57:51,225 DEBUG ConnectionManager:341 : aggressively releasing JDBC connection
+18:57:51,225 DEBUG ConnectionManager:378 : releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+18:57:51,227 DEBUG DriverManagerConnectionProvider:129 : returning connection to pool, pool size: 1
+18:57:51,227 DEBUG SessionImpl:442 : after transaction completion
+18:57:51,227 DEBUG SessionImpl:291 : closing session
+18:57:51,228 DEBUG ConnectionManager:312 : connection already null in cleanup : no action
+18:57:51,228  INFO SessionFactoryImpl:728 : closing
+18:57:51,229  INFO DriverManagerConnectionProvider:147 : cleaning up connection pool: jdbc:sqlite:1.db
+18:59:52,122  INFO Environment:479 : Hibernate 3.1.2
+18:59:52,129  INFO Environment:509 : hibernate.properties not found
+18:59:52,132  INFO Environment:525 : using CGLIB reflection optimizer
+18:59:52,134  INFO Environment:555 : using JDK 1.4 java.sql.Timestamp handling
+18:59:52,167  INFO Configuration:1308 : configuring from resource: /hibernate.cfg.xml
+18:59:52,167  INFO Configuration:1285 : Configuration resource: /hibernate.cfg.xml
+18:59:52,205 DEBUG DTDEntityResolver:42 : trying to locate http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath under org/hibernate/
+18:59:52,206 DEBUG DTDEntityResolver:56 : found http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath
+18:59:52,222 DEBUG Configuration:1269 : show_sql=true
+18:59:52,222 DEBUG Configuration:1269 : format_sql=true
+18:59:52,223 DEBUG Configuration:1269 : dialect=dialect.SQLiteDialect
+18:59:52,223 DEBUG Configuration:1269 : connection.driver_class=org.sqlite.JDBC
+18:59:52,224 DEBUG Configuration:1269 : connection.url=jdbc:sqlite:1.db
+18:59:52,224 DEBUG Configuration:1269 : connection.username=
+18:59:52,225 DEBUG Configuration:1269 : connection.password=
+18:59:52,226 DEBUG Configuration:1464 : null<-org.dom4j.tree.DefaultAttribute@2484ada4 [Attribute: name resource value "User.hbm.xml"]
+18:59:52,227  INFO Configuration:469 : Reading mappings from resource: User.hbm.xml
+18:59:52,229 DEBUG DTDEntityResolver:42 : trying to locate http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd in classpath under org/hibernate/
+18:59:52,230 DEBUG DTDEntityResolver:56 : found http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd in classpath
+18:59:52,311  INFO HbmBinder:309 : Mapping class: model.User -> users
+18:59:52,314 DEBUG HbmBinder:1261 : Mapped property: id -> id
+18:59:52,319 DEBUG HbmBinder:1261 : Mapped property: name -> name
+18:59:52,320 DEBUG HbmBinder:1261 : Mapped property: password -> password
+18:59:52,320  INFO Configuration:1419 : Configured SessionFactory: null
+18:59:52,321 DEBUG Configuration:1420 : properties: {hibernate.connection.password=, java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=/home/sumit/jdk1.7.0_51/jre/lib/amd64, java.vm.version=24.51-b03, hibernate.connection.username=, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=IN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/sumit/hdbstudio/HibernateSQLite, java.runtime.version=1.7.0_51-b13, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/home/sumit/jdk1.7.0_51/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Linux, sun.jnu.encoding=UTF-8, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=51.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=3.8.0-35-generic, connection.password=, user.home=/home/sumit, user.timezone=Asia/Kolkata, connection.username=, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.7, hibernate.format_sql=true, hibernate.connection.driver_class=org.sqlite.JDBC, show_sql=true, user.name=sumit, java.class.path=/home/sumit/hdbstudio/HibernateSQLite/target/classes:/home/sumit/hdbstudio/HibernateSQLite/antlr.jar:/home/sumit/hdbstudio/HibernateSQLite/asm.jar:/home/sumit/hdbstudio/HibernateSQLite/asm-attrs.jar:/home/sumit/hdbstudio/HibernateSQLite/c3p0-0.9.0.jar:/home/sumit/hdbstudio/HibernateSQLite/cglib-2.1.3.jar:/home/sumit/hdbstudio/HibernateSQLite/commons-collections-2.1.1.jar:/home/sumit/hdbstudio/HibernateSQLite/commons-logging-1.0.4.jar:/home/sumit/hdbstudio/HibernateSQLite/dom4j-1.6.1.jar:/home/sumit/hdbstudio/HibernateSQLite/ehcache-1.1.jar:/home/sumit/hdbstudio/HibernateSQLite/hibernate3.jar:/home/sumit/hdbstudio/HibernateSQLite/jta.jar:/home/sumit/hdbstudio/HibernateSQLite/junit-4.4.jar:/home/sumit/hdbstudio/HibernateSQLite/log4j-1.2.9.jar:/home/sumit/hdbstudio/HibernateSQLite/xml-apis.jar:/home/sumit/hdbstudio/HibernateSQLite/sqlite-jdbc-3.6.0.jar, format_sql=true, hibernate.show_sql=true, java.vm.specification.version=1.7, sun.java.command=runner.HibernateExampleRunner, java.home=/home/sumit/jdk1.7.0_51/jre, sun.arch.data.model=64, hibernate.connection.url=jdbc:sqlite:1.db, hibernate.dialect=dialect.SQLiteDialect, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.X11.XToolkit, hibernate.cglib.use_reflection_optimizer=true, java.vm.info=mixed mode, java.version=1.7.0_51, java.ext.dirs=/home/sumit/jdk1.7.0_51/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/home/sumit/jdk1.7.0_51/jre/lib/resources.jar:/home/sumit/jdk1.7.0_51/jre/lib/rt.jar:/home/sumit/jdk1.7.0_51/jre/lib/sunrsasign.jar:/home/sumit/jdk1.7.0_51/jre/lib/jsse.jar:/home/sumit/jdk1.7.0_51/jre/lib/jce.jar:/home/sumit/jdk1.7.0_51/jre/lib/charsets.jar:/home/sumit/jdk1.7.0_51/jre/lib/jfr.jar:/home/sumit/jdk1.7.0_51/jre/classes, java.vendor=Oracle Corporation, connection.driver_class=org.sqlite.JDBC, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=gnome, connection.url=jdbc:sqlite:1.db, dialect=dialect.SQLiteDialect, sun.cpu.isalist=}
+18:59:52,321 DEBUG Configuration:1167 : Preparing to build session factory with filters : {}
+18:59:52,321 DEBUG Configuration:1002 : processing extends queue
+18:59:52,322 DEBUG Configuration:1006 : processing collection mappings
+18:59:52,322 DEBUG Configuration:1017 : processing native query and ResultSetMapping mappings
+18:59:52,322 DEBUG Configuration:1025 : processing association property references
+18:59:52,322 DEBUG Configuration:1047 : processing foreign key constraints
+18:59:52,357  INFO DriverManagerConnectionProvider:41 : Using Hibernate built-in connection pool (not for production use!)
+18:59:52,358  INFO DriverManagerConnectionProvider:42 : Hibernate connection pool size: 20
+18:59:52,358  INFO DriverManagerConnectionProvider:45 : autocommit mode: false
+18:59:52,362  INFO DriverManagerConnectionProvider:80 : using driver: org.sqlite.JDBC at URL: jdbc:sqlite:1.db
+18:59:52,362  INFO DriverManagerConnectionProvider:83 : connection properties: {user=, password=}
+18:59:52,362 DEBUG DriverManagerConnectionProvider:93 : total checked-out connections: 0
+18:59:52,362 DEBUG DriverManagerConnectionProvider:109 : opening new JDBC connection
+18:59:52,515 DEBUG DriverManagerConnectionProvider:115 : created connection to: jdbc:sqlite:1.db, Isolation Level: 8
+18:59:52,517  INFO SettingsFactory:77 : RDBMS: SQLite, version: 3.6.0
+18:59:52,518  INFO SettingsFactory:78 : JDBC driver: SQLiteJDBC, version: native
+18:59:52,518 DEBUG DriverManagerConnectionProvider:129 : returning connection to pool, pool size: 1
+18:59:52,532  INFO Dialect:103 : Using dialect: dialect.SQLiteDialect
+18:59:52,537  INFO TransactionFactoryFactory:31 : Using default transaction strategy (direct JDBC transactions)
+18:59:52,539  INFO TransactionManagerLookupFactory:33 : No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+18:59:52,539  INFO SettingsFactory:125 : Automatic flush during beforeCompletion(): disabled
+18:59:52,540  INFO SettingsFactory:129 : Automatic session close at end of transaction: disabled
+18:59:52,540  INFO SettingsFactory:144 : Scrollable result sets: disabled
+18:59:52,541 DEBUG SettingsFactory:148 : Wrap result sets: disabled
+18:59:52,541  INFO SettingsFactory:152 : JDBC3 getGeneratedKeys(): disabled
+18:59:52,541  INFO SettingsFactory:160 : Connection release mode: auto
+18:59:52,542  INFO SettingsFactory:187 : Default batch fetch size: 1
+18:59:52,543  INFO SettingsFactory:191 : Generate SQL with comments: disabled
+18:59:52,543  INFO SettingsFactory:195 : Order SQL updates by primary key: disabled
+18:59:52,543  INFO SettingsFactory:338 : Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+18:59:52,546  INFO ASTQueryTranslatorFactory:24 : Using ASTQueryTranslatorFactory
+18:59:52,546  INFO SettingsFactory:203 : Query language substitutions: {}
+18:59:52,546  INFO SettingsFactory:209 : Second-level cache: enabled
+18:59:52,547  INFO SettingsFactory:213 : Query cache: disabled
+18:59:52,547  INFO SettingsFactory:325 : Cache provider: org.hibernate.cache.EhCacheProvider
+18:59:52,549  INFO SettingsFactory:228 : Optimize cache for minimal puts: disabled
+18:59:52,549  INFO SettingsFactory:237 : Structured second-level cache entries: disabled
+18:59:52,550 DEBUG SQLExceptionConverterFactory:52 : Using dialect defined converter
+18:59:52,552  INFO SettingsFactory:257 : Echoing all SQL to stdout
+18:59:52,552  INFO SettingsFactory:264 : Statistics: disabled
+18:59:52,552  INFO SettingsFactory:268 : Deleted entity synthetic identifier rollback: disabled
+18:59:52,552  INFO SettingsFactory:283 : Default entity-mode: pojo
+18:59:52,572  INFO SessionFactoryImpl:153 : building session factory
+18:59:52,572 DEBUG SessionFactoryImpl:164 : Session factory constructed with filter configurations : {}
+18:59:52,572 DEBUG SessionFactoryImpl:167 : instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.password=, sun.boot.library.path=/home/sumit/jdk1.7.0_51/jre/lib/amd64, java.vm.version=24.51-b03, hibernate.connection.username=, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=IN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/sumit/hdbstudio/HibernateSQLite, java.runtime.version=1.7.0_51-b13, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/home/sumit/jdk1.7.0_51/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Linux, sun.jnu.encoding=UTF-8, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=51.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=3.8.0-35-generic, user.home=/home/sumit, connection.password=, user.timezone=Asia/Kolkata, java.awt.printerjob=sun.print.PSPrinterJob, connection.username=, java.specification.version=1.7, file.encoding=UTF-8, hibernate.format_sql=true, hibernate.connection.driver_class=org.sqlite.JDBC, show_sql=true, java.class.path=/home/sumit/hdbstudio/HibernateSQLite/target/classes:/home/sumit/hdbstudio/HibernateSQLite/antlr.jar:/home/sumit/hdbstudio/HibernateSQLite/asm.jar:/home/sumit/hdbstudio/HibernateSQLite/asm-attrs.jar:/home/sumit/hdbstudio/HibernateSQLite/c3p0-0.9.0.jar:/home/sumit/hdbstudio/HibernateSQLite/cglib-2.1.3.jar:/home/sumit/hdbstudio/HibernateSQLite/commons-collections-2.1.1.jar:/home/sumit/hdbstudio/HibernateSQLite/commons-logging-1.0.4.jar:/home/sumit/hdbstudio/HibernateSQLite/dom4j-1.6.1.jar:/home/sumit/hdbstudio/HibernateSQLite/ehcache-1.1.jar:/home/sumit/hdbstudio/HibernateSQLite/hibernate3.jar:/home/sumit/hdbstudio/HibernateSQLite/jta.jar:/home/sumit/hdbstudio/HibernateSQLite/junit-4.4.jar:/home/sumit/hdbstudio/HibernateSQLite/log4j-1.2.9.jar:/home/sumit/hdbstudio/HibernateSQLite/xml-apis.jar:/home/sumit/hdbstudio/HibernateSQLite/sqlite-jdbc-3.6.0.jar, user.name=sumit, format_sql=true, hibernate.show_sql=true, java.vm.specification.version=1.7, sun.arch.data.model=64, java.home=/home/sumit/jdk1.7.0_51/jre, sun.java.command=runner.HibernateExampleRunner, hibernate.dialect=dialect.SQLiteDialect, hibernate.connection.url=jdbc:sqlite:1.db, java.specification.vendor=Oracle Corporation, user.language=en, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, hibernate.cglib.use_reflection_optimizer=true, java.version=1.7.0_51, java.ext.dirs=/home/sumit/jdk1.7.0_51/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/home/sumit/jdk1.7.0_51/jre/lib/resources.jar:/home/sumit/jdk1.7.0_51/jre/lib/rt.jar:/home/sumit/jdk1.7.0_51/jre/lib/sunrsasign.jar:/home/sumit/jdk1.7.0_51/jre/lib/jsse.jar:/home/sumit/jdk1.7.0_51/jre/lib/jce.jar:/home/sumit/jdk1.7.0_51/jre/lib/charsets.jar:/home/sumit/jdk1.7.0_51/jre/lib/jfr.jar:/home/sumit/jdk1.7.0_51/jre/classes, java.vendor=Oracle Corporation, file.separator=/, connection.driver_class=org.sqlite.JDBC, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=gnome, connection.url=jdbc:sqlite:1.db, sun.cpu.isalist=, dialect=dialect.SQLiteDialect}
+18:59:52,580 DEBUG CacheManager:191 : Creating new CacheManager with default config
+18:59:52,581 DEBUG CacheManager:164 : Configuring ehcache from classpath.
+18:59:52,583  WARN Configurator:126 : No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/home/sumit/hdbstudio/HibernateSQLite/ehcache-1.1.jar!/ehcache-failsafe.xml
+18:59:52,587 DEBUG Configuration$DiskStore:185 : Disk Store Path: /tmp
+18:59:52,730 DEBUG AbstractEntityPersister:2447 : Static SQL for entity: model.User
+18:59:52,730 DEBUG AbstractEntityPersister:2449 :  Version select: select id from users where id =?
+18:59:52,730 DEBUG AbstractEntityPersister:2450 :  Snapshot select: select user_.id, user_.name as name0_, user_.password as password0_ from users user_ where user_.id=?
+18:59:52,730 DEBUG AbstractEntityPersister:2452 :  Insert 0: insert into users (name, password, id) values (?, ?, ?)
+18:59:52,730 DEBUG AbstractEntityPersister:2453 :  Update 0: update users set name=?, password=? where id=?
+18:59:52,731 DEBUG AbstractEntityPersister:2454 :  Delete 0: delete from users where id=?
+18:59:52,731 DEBUG AbstractEntityPersister:2457 :  Identity insert: insert into users (name, password) values (?, ?)
+18:59:52,741 DEBUG EntityLoader:79 : Static select for entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+18:59:52,741 DEBUG EntityLoader:79 : Static select for entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+18:59:52,742 DEBUG EntityLoader:79 : Static select for entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+18:59:52,742 DEBUG EntityLoader:79 : Static select for entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+18:59:52,746 DEBUG EntityLoader:67 : Static select for action ACTION_MERGE on entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+18:59:52,746 DEBUG EntityLoader:67 : Static select for action ACTION_REFRESH on entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+18:59:52,748 DEBUG SessionFactoryObjectFactory:39 : initializing class SessionFactoryObjectFactory
+18:59:52,749 DEBUG SessionFactoryObjectFactory:76 : registered: ff808181448822e601448822e76a0000 (unnamed)
+18:59:52,749  INFO SessionFactoryObjectFactory:82 : Not binding factory to JNDI, no JNDI name configured
+18:59:52,749 DEBUG SessionFactoryImpl:292 : instantiated session factory
+18:59:52,749 DEBUG SessionFactoryImpl:353 : Checking 0 named HQL queries
+18:59:52,749 DEBUG SessionFactoryImpl:373 : Checking 0 named SQL queries
+18:59:52,766 DEBUG SessionImpl:273 : opened session at timestamp: 5709223496704000
+18:59:52,767 DEBUG JDBCTransaction:54 : begin
+18:59:52,767 DEBUG ConnectionManager:358 : opening JDBC connection
+18:59:52,767 DEBUG DriverManagerConnectionProvider:93 : total checked-out connections: 0
+18:59:52,768 DEBUG DriverManagerConnectionProvider:99 : using pooled JDBC connection, pool size: 0
+18:59:52,768 DEBUG JDBCTransaction:59 : current autocommit status: false
+18:59:52,768 DEBUG JDBCContext:190 : after transaction begin
+18:59:52,769 DEBUG DefaultSaveOrUpdateEventListener:161 : saving transient instance
+18:59:52,770 DEBUG AbstractSaveEventListener:139 : saving [model.User#<null>]
+18:59:52,770 DEBUG AbstractSaveEventListener:221 : executing insertions
+18:59:52,775 DEBUG AbstractEntityPersister:1941 : Inserting entity: model.User (native id)
+18:59:52,775 DEBUG AbstractBatcher:311 : about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+18:59:52,776 DEBUG SQL:346 : 
+    insert 
+    into
+        users
+        (name, password) 
+    values
+        (?, ?)
+18:59:52,777 DEBUG AbstractBatcher:424 : preparing statement
+18:59:52,781 DEBUG AbstractEntityPersister:1821 : Dehydrating entity: [model.User#<null>]
+18:59:52,781 DEBUG StringType:79 : binding 'apple' to parameter: 1
+18:59:52,781 DEBUG StringType:79 : binding '123456' to parameter: 2
+18:59:52,782 DEBUG AbstractBatcher:319 : about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+18:59:52,782 DEBUG AbstractBatcher:470 : closing statement
+18:59:52,782 DEBUG AbstractBatcher:311 : about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+18:59:52,782 DEBUG SQL:346 : 
+    select
+        last_insert_rowid()
+18:59:52,783 DEBUG AbstractBatcher:424 : preparing statement
+18:59:52,783 DEBUG IdentifierGeneratorFactory:37 : Natively generated identity: 8
+18:59:52,783 DEBUG AbstractBatcher:319 : about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+18:59:52,783 DEBUG AbstractBatcher:470 : closing statement
+18:59:52,785 DEBUG JDBCTransaction:103 : commit
+18:59:52,785 DEBUG SessionImpl:355 : automatically flushing session
+18:59:52,785 DEBUG AbstractFlushingEventListener:58 : flushing session
+18:59:52,786 DEBUG AbstractFlushingEventListener:111 : processing flush-time cascades
+18:59:52,786 DEBUG AbstractFlushingEventListener:153 : dirty checking collections
+18:59:52,787 DEBUG AbstractFlushingEventListener:170 : Flushing entities and processing referenced collections
+18:59:52,788 DEBUG AbstractFlushingEventListener:209 : Processing unreferenced collections
+18:59:52,788 DEBUG AbstractFlushingEventListener:223 : Scheduling collection removes/(re)creates/updates
+18:59:52,789 DEBUG AbstractFlushingEventListener:85 : Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+18:59:52,789 DEBUG AbstractFlushingEventListener:91 : Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+18:59:52,789 DEBUG Printer:83 : listing entities:
+18:59:52,790 DEBUG Printer:90 : model.User{id=8, name=apple, password=123456}
+18:59:52,790 DEBUG AbstractFlushingEventListener:289 : executing flush
+18:59:52,790 DEBUG AbstractFlushingEventListener:316 : post flush
+18:59:52,790 DEBUG JDBCContext:181 : before transaction completion
+18:59:52,790 DEBUG SessionImpl:411 : before transaction completion
+18:59:52,916 DEBUG JDBCTransaction:116 : committed JDBC Connection
+18:59:52,916 DEBUG JDBCContext:195 : after transaction completion
+18:59:52,916 DEBUG ConnectionManager:341 : aggressively releasing JDBC connection
+18:59:52,917 DEBUG ConnectionManager:378 : releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+18:59:52,918 DEBUG DriverManagerConnectionProvider:129 : returning connection to pool, pool size: 1
+18:59:52,918 DEBUG SessionImpl:442 : after transaction completion
+18:59:52,919 DEBUG SessionImpl:291 : closing session
+18:59:52,919 DEBUG ConnectionManager:312 : connection already null in cleanup : no action
+18:59:52,919  INFO SessionFactoryImpl:728 : closing
+18:59:52,920  INFO DriverManagerConnectionProvider:147 : cleaning up connection pool: jdbc:sqlite:1.db
+19:02:39,777  INFO Environment:479 : Hibernate 3.1.2
+19:02:39,827  INFO Environment:509 : hibernate.properties not found
+19:02:39,840  INFO Environment:525 : using CGLIB reflection optimizer
+19:02:39,847  INFO Environment:555 : using JDK 1.4 java.sql.Timestamp handling
+19:02:40,252  INFO Configuration:1308 : configuring from resource: /hibernate.cfg.xml
+19:02:40,258  INFO Configuration:1285 : Configuration resource: /hibernate.cfg.xml
+19:02:40,581 DEBUG DTDEntityResolver:42 : trying to locate http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath under org/hibernate/
+19:02:40,597 DEBUG DTDEntityResolver:56 : found http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath
+19:02:40,729 DEBUG Configuration:1269 : show_sql=true
+19:02:40,735 DEBUG Configuration:1269 : format_sql=true
+19:02:40,740 DEBUG Configuration:1269 : dialect=dialect.SQLiteDialect
+19:02:40,746 DEBUG Configuration:1269 : connection.driver_class=org.sqlite.JDBC
+19:02:40,751 DEBUG Configuration:1269 : connection.url=jdbc:sqlite:1.db
+19:02:40,756 DEBUG Configuration:1269 : connection.username=
+19:02:40,762 DEBUG Configuration:1269 : connection.password=
+19:02:40,769 DEBUG Configuration:1464 : null<-org.dom4j.tree.DefaultAttribute@6d85ada3 [Attribute: name resource value "User.hbm.xml"]
+19:02:40,774  INFO Configuration:469 : Reading mappings from resource: User.hbm.xml
+19:02:40,793 DEBUG DTDEntityResolver:42 : trying to locate http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd in classpath under org/hibernate/
+19:02:40,809 DEBUG DTDEntityResolver:56 : found http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd in classpath
+19:02:41,781  INFO HbmBinder:309 : Mapping class: model.User -> users
+19:02:41,821 DEBUG HbmBinder:1261 : Mapped property: id -> id
+19:02:41,894 DEBUG HbmBinder:1261 : Mapped property: name -> name
+19:02:41,905 DEBUG HbmBinder:1261 : Mapped property: password -> password
+19:02:41,913  INFO Configuration:1419 : Configured SessionFactory: null
+19:02:41,922 DEBUG Configuration:1420 : properties: {hibernate.connection.password=, java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=/home/sumit/jdk1.7.0_51/jre/lib/amd64, java.vm.version=24.51-b03, hibernate.connection.username=, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=IN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/sumit/hdbstudio/HibernateSQLite, java.runtime.version=1.7.0_51-b13, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/home/sumit/jdk1.7.0_51/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Linux, sun.jnu.encoding=UTF-8, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=51.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=3.8.0-35-generic, connection.password=, user.home=/home/sumit, user.timezone=Asia/Kolkata, connection.username=, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.7, hibernate.format_sql=true, hibernate.connection.driver_class=org.sqlite.JDBC, show_sql=true, user.name=sumit, java.class.path=/home/sumit/hdbstudio/HibernateSQLite/target/classes:/home/sumit/hdbstudio/HibernateSQLite/antlr.jar:/home/sumit/hdbstudio/HibernateSQLite/asm.jar:/home/sumit/hdbstudio/HibernateSQLite/asm-attrs.jar:/home/sumit/hdbstudio/HibernateSQLite/c3p0-0.9.0.jar:/home/sumit/hdbstudio/HibernateSQLite/cglib-2.1.3.jar:/home/sumit/hdbstudio/HibernateSQLite/commons-collections-2.1.1.jar:/home/sumit/hdbstudio/HibernateSQLite/commons-logging-1.0.4.jar:/home/sumit/hdbstudio/HibernateSQLite/dom4j-1.6.1.jar:/home/sumit/hdbstudio/HibernateSQLite/ehcache-1.1.jar:/home/sumit/hdbstudio/HibernateSQLite/hibernate3.jar:/home/sumit/hdbstudio/HibernateSQLite/jta.jar:/home/sumit/hdbstudio/HibernateSQLite/junit-4.4.jar:/home/sumit/hdbstudio/HibernateSQLite/log4j-1.2.9.jar:/home/sumit/hdbstudio/HibernateSQLite/xml-apis.jar:/home/sumit/hdbstudio/HibernateSQLite/sqlite-jdbc-3.6.0.jar, format_sql=true, hibernate.show_sql=true, java.vm.specification.version=1.7, sun.java.command=runner.HibernateExampleRunner, java.home=/home/sumit/jdk1.7.0_51/jre, sun.arch.data.model=64, hibernate.connection.url=jdbc:sqlite:1.db, hibernate.dialect=dialect.SQLiteDialect, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.X11.XToolkit, hibernate.cglib.use_reflection_optimizer=true, java.vm.info=mixed mode, java.version=1.7.0_51, java.ext.dirs=/home/sumit/jdk1.7.0_51/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/home/sumit/jdk1.7.0_51/jre/lib/resources.jar:/home/sumit/jdk1.7.0_51/jre/lib/rt.jar:/home/sumit/jdk1.7.0_51/jre/lib/sunrsasign.jar:/home/sumit/jdk1.7.0_51/jre/lib/jsse.jar:/home/sumit/jdk1.7.0_51/jre/lib/jce.jar:/home/sumit/jdk1.7.0_51/jre/lib/charsets.jar:/home/sumit/jdk1.7.0_51/jre/lib/jfr.jar:/home/sumit/jdk1.7.0_51/jre/classes, java.vendor=Oracle Corporation, connection.driver_class=org.sqlite.JDBC, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=gnome, connection.url=jdbc:sqlite:1.db, dialect=dialect.SQLiteDialect, sun.cpu.isalist=}
+19:02:41,932 DEBUG Configuration:1167 : Preparing to build session factory with filters : {}
+19:02:41,937 DEBUG Configuration:1002 : processing extends queue
+19:02:41,941 DEBUG Configuration:1006 : processing collection mappings
+19:02:41,946 DEBUG Configuration:1017 : processing native query and ResultSetMapping mappings
+19:02:41,950 DEBUG Configuration:1025 : processing association property references
+19:02:41,955 DEBUG Configuration:1047 : processing foreign key constraints
+19:02:42,303  INFO DriverManagerConnectionProvider:41 : Using Hibernate built-in connection pool (not for production use!)
+19:02:42,310  INFO DriverManagerConnectionProvider:42 : Hibernate connection pool size: 20
+19:02:42,317  INFO DriverManagerConnectionProvider:45 : autocommit mode: false
+19:02:42,349  INFO DriverManagerConnectionProvider:80 : using driver: org.sqlite.JDBC at URL: jdbc:sqlite:1.db
+19:02:42,356  INFO DriverManagerConnectionProvider:83 : connection properties: {user=, password=}
+19:02:42,363 DEBUG DriverManagerConnectionProvider:93 : total checked-out connections: 0
+19:02:42,369 DEBUG DriverManagerConnectionProvider:109 : opening new JDBC connection
+19:02:58,957 DEBUG DriverManagerConnectionProvider:115 : created connection to: jdbc:sqlite:1.db, Isolation Level: 8
+19:02:58,972  INFO SettingsFactory:77 : RDBMS: SQLite, version: 3.6.0
+19:02:58,978  INFO SettingsFactory:78 : JDBC driver: SQLiteJDBC, version: native
+19:02:58,986 DEBUG DriverManagerConnectionProvider:129 : returning connection to pool, pool size: 1
+19:02:59,144  INFO Dialect:103 : Using dialect: dialect.SQLiteDialect
+19:02:59,196  INFO TransactionFactoryFactory:31 : Using default transaction strategy (direct JDBC transactions)
+19:02:59,218  INFO TransactionManagerLookupFactory:33 : No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+19:02:59,225  INFO SettingsFactory:125 : Automatic flush during beforeCompletion(): disabled
+19:02:59,231  INFO SettingsFactory:129 : Automatic session close at end of transaction: disabled
+19:02:59,242  INFO SettingsFactory:144 : Scrollable result sets: disabled
+19:02:59,248 DEBUG SettingsFactory:148 : Wrap result sets: disabled
+19:02:59,252  INFO SettingsFactory:152 : JDBC3 getGeneratedKeys(): disabled
+19:02:59,258  INFO SettingsFactory:160 : Connection release mode: auto
+19:02:59,269  INFO SettingsFactory:187 : Default batch fetch size: 1
+19:02:59,274  INFO SettingsFactory:191 : Generate SQL with comments: disabled
+19:02:59,280  INFO SettingsFactory:195 : Order SQL updates by primary key: disabled
+19:02:59,285  INFO SettingsFactory:338 : Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+19:02:59,313  INFO ASTQueryTranslatorFactory:24 : Using ASTQueryTranslatorFactory
+19:02:59,321  INFO SettingsFactory:203 : Query language substitutions: {}
+19:02:59,326  INFO SettingsFactory:209 : Second-level cache: enabled
+19:02:59,332  INFO SettingsFactory:213 : Query cache: disabled
+19:02:59,337  INFO SettingsFactory:325 : Cache provider: org.hibernate.cache.EhCacheProvider
+19:02:59,364  INFO SettingsFactory:228 : Optimize cache for minimal puts: disabled
+19:02:59,370  INFO SettingsFactory:237 : Structured second-level cache entries: disabled
+19:02:59,383 DEBUG SQLExceptionConverterFactory:52 : Using dialect defined converter
+19:02:59,424  INFO SettingsFactory:257 : Echoing all SQL to stdout
+19:02:59,430  INFO SettingsFactory:264 : Statistics: disabled
+19:02:59,435  INFO SettingsFactory:268 : Deleted entity synthetic identifier rollback: disabled
+19:02:59,441  INFO SettingsFactory:283 : Default entity-mode: pojo
+19:02:59,667  INFO SessionFactoryImpl:153 : building session factory
+19:02:59,674 DEBUG SessionFactoryImpl:164 : Session factory constructed with filter configurations : {}
+19:02:59,681 DEBUG SessionFactoryImpl:167 : instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.password=, sun.boot.library.path=/home/sumit/jdk1.7.0_51/jre/lib/amd64, java.vm.version=24.51-b03, hibernate.connection.username=, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=IN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/sumit/hdbstudio/HibernateSQLite, java.runtime.version=1.7.0_51-b13, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/home/sumit/jdk1.7.0_51/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Linux, sun.jnu.encoding=UTF-8, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=51.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=3.8.0-35-generic, user.home=/home/sumit, connection.password=, user.timezone=Asia/Kolkata, java.awt.printerjob=sun.print.PSPrinterJob, connection.username=, java.specification.version=1.7, file.encoding=UTF-8, hibernate.format_sql=true, hibernate.connection.driver_class=org.sqlite.JDBC, show_sql=true, java.class.path=/home/sumit/hdbstudio/HibernateSQLite/target/classes:/home/sumit/hdbstudio/HibernateSQLite/antlr.jar:/home/sumit/hdbstudio/HibernateSQLite/asm.jar:/home/sumit/hdbstudio/HibernateSQLite/asm-attrs.jar:/home/sumit/hdbstudio/HibernateSQLite/c3p0-0.9.0.jar:/home/sumit/hdbstudio/HibernateSQLite/cglib-2.1.3.jar:/home/sumit/hdbstudio/HibernateSQLite/commons-collections-2.1.1.jar:/home/sumit/hdbstudio/HibernateSQLite/commons-logging-1.0.4.jar:/home/sumit/hdbstudio/HibernateSQLite/dom4j-1.6.1.jar:/home/sumit/hdbstudio/HibernateSQLite/ehcache-1.1.jar:/home/sumit/hdbstudio/HibernateSQLite/hibernate3.jar:/home/sumit/hdbstudio/HibernateSQLite/jta.jar:/home/sumit/hdbstudio/HibernateSQLite/junit-4.4.jar:/home/sumit/hdbstudio/HibernateSQLite/log4j-1.2.9.jar:/home/sumit/hdbstudio/HibernateSQLite/xml-apis.jar:/home/sumit/hdbstudio/HibernateSQLite/sqlite-jdbc-3.6.0.jar, user.name=sumit, format_sql=true, hibernate.show_sql=true, java.vm.specification.version=1.7, sun.arch.data.model=64, java.home=/home/sumit/jdk1.7.0_51/jre, sun.java.command=runner.HibernateExampleRunner, hibernate.dialect=dialect.SQLiteDialect, hibernate.connection.url=jdbc:sqlite:1.db, java.specification.vendor=Oracle Corporation, user.language=en, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, hibernate.cglib.use_reflection_optimizer=true, java.version=1.7.0_51, java.ext.dirs=/home/sumit/jdk1.7.0_51/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/home/sumit/jdk1.7.0_51/jre/lib/resources.jar:/home/sumit/jdk1.7.0_51/jre/lib/rt.jar:/home/sumit/jdk1.7.0_51/jre/lib/sunrsasign.jar:/home/sumit/jdk1.7.0_51/jre/lib/jsse.jar:/home/sumit/jdk1.7.0_51/jre/lib/jce.jar:/home/sumit/jdk1.7.0_51/jre/lib/charsets.jar:/home/sumit/jdk1.7.0_51/jre/lib/jfr.jar:/home/sumit/jdk1.7.0_51/jre/classes, java.vendor=Oracle Corporation, file.separator=/, connection.driver_class=org.sqlite.JDBC, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=gnome, connection.url=jdbc:sqlite:1.db, sun.cpu.isalist=, dialect=dialect.SQLiteDialect}
+19:02:59,701 DEBUG CacheManager:191 : Creating new CacheManager with default config
+19:02:59,721 DEBUG CacheManager:164 : Configuring ehcache from classpath.
+19:02:59,750  WARN Configurator:126 : No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/home/sumit/hdbstudio/HibernateSQLite/ehcache-1.1.jar!/ehcache-failsafe.xml
+19:02:59,807 DEBUG Configuration$DiskStore:185 : Disk Store Path: /tmp
+19:03:01,463 DEBUG AbstractEntityPersister:2447 : Static SQL for entity: model.User
+19:03:01,469 DEBUG AbstractEntityPersister:2449 :  Version select: select id from users where id =?
+19:03:01,475 DEBUG AbstractEntityPersister:2450 :  Snapshot select: select user_.id, user_.name as name0_, user_.password as password0_ from users user_ where user_.id=?
+19:03:01,481 DEBUG AbstractEntityPersister:2452 :  Insert 0: insert into users (name, password, id) values (?, ?, ?)
+19:03:01,487 DEBUG AbstractEntityPersister:2453 :  Update 0: update users set name=?, password=? where id=?
+19:03:01,493 DEBUG AbstractEntityPersister:2454 :  Delete 0: delete from users where id=?
+19:03:01,499 DEBUG AbstractEntityPersister:2457 :  Identity insert: insert into users (name, password) values (?, ?)
+19:03:01,588 DEBUG EntityLoader:79 : Static select for entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+19:03:01,597 DEBUG EntityLoader:79 : Static select for entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+19:03:01,606 DEBUG EntityLoader:79 : Static select for entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+19:03:01,616 DEBUG EntityLoader:79 : Static select for entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+19:03:01,689 DEBUG EntityLoader:67 : Static select for action ACTION_MERGE on entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+19:03:01,697 DEBUG EntityLoader:67 : Static select for action ACTION_REFRESH on entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+19:03:01,712 DEBUG SessionFactoryObjectFactory:39 : initializing class SessionFactoryObjectFactory
+19:03:01,727 DEBUG SessionFactoryObjectFactory:76 : registered: ff808181448825c001448825c9870000 (unnamed)
+19:03:01,732  INFO SessionFactoryObjectFactory:82 : Not binding factory to JNDI, no JNDI name configured
+19:03:01,738 DEBUG SessionFactoryImpl:292 : instantiated session factory
+19:03:01,743 DEBUG SessionFactoryImpl:353 : Checking 0 named HQL queries
+19:03:01,747 DEBUG SessionFactoryImpl:373 : Checking 0 named SQL queries
+19:03:01,790 DEBUG SessionImpl:273 : opened session at timestamp: 5709224270864384
+19:03:04,646 DEBUG JDBCTransaction:54 : begin
+19:03:04,650 DEBUG ConnectionManager:358 : opening JDBC connection
+19:03:04,654 DEBUG DriverManagerConnectionProvider:93 : total checked-out connections: 0
+19:03:04,657 DEBUG DriverManagerConnectionProvider:99 : using pooled JDBC connection, pool size: 0
+19:03:04,660 DEBUG JDBCTransaction:59 : current autocommit status: false
+19:03:04,662 DEBUG JDBCContext:190 : after transaction begin
+19:03:06,036 DEBUG QueryPlanCache:69 : unable to locate HQL query plan in cache; generating (from User)
+19:03:06,102 DEBUG QueryTranslatorImpl:236 : parse() - HQL: from model.User
+19:03:06,121 DEBUG AST:252 : --- HQL AST ---
+ \-[QUERY] 'query'
+    \-[SELECT_FROM] 'SELECT_FROM'
+       \-[FROM] 'from'
+          \-[RANGE] 'RANGE'
+             \-[DOT] '.'
+                +-[IDENT] 'model'
+                \-[IDENT] 'User'
+
+19:03:06,123 DEBUG ErrorCounter:68 : throwQueryException() : no errors
+19:03:06,163 DEBUG HqlSqlBaseWalker:111 : select << begin [level=1, statement=select]
+19:03:06,183 DEBUG FromElement:104 : FromClause{level=1} :  model.User (no alias) -> user0_
+19:03:06,185 DEBUG HqlSqlBaseWalker:117 : select : finishing up [level=1, statement=select]
+19:03:06,187 DEBUG HqlSqlWalker:446 : processQuery() :  ( SELECT ( FromClause{level=1} users user0_ ) )
+19:03:06,196 DEBUG HqlSqlWalker:648 : Derived SELECT clause created.
+19:03:06,204 DEBUG JoinProcessor:128 : Using FROM fragment [users user0_]
+19:03:06,206 DEBUG HqlSqlBaseWalker:123 : select >> end [level=1, statement=select]
+19:03:06,212 DEBUG AST:222 : --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (users)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'user0_.id as id0_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=users,tableAlias=user0_,origin=null,colums={,className=model.User}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'user0_.name as name0_, user0_.password as password0_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[user0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'users user0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=users,tableAlias=user0_,origin=null,colums={,className=model.User}}
+
+19:03:06,214 DEBUG ErrorCounter:68 : throwQueryException() : no errors
+19:03:06,223 DEBUG QueryTranslatorImpl:206 : HQL: from model.User
+19:03:06,224 DEBUG QueryTranslatorImpl:207 : SQL: select user0_.id as id0_, user0_.name as name0_, user0_.password as password0_ from users user0_
+19:03:06,226 DEBUG ErrorCounter:68 : throwQueryException() : no errors
+19:03:06,235 DEBUG HQLQueryPlan:219 : HQL param location recognition took 3 mills (from User)
+19:03:06,243 DEBUG QueryPlanCache:75 : located HQL query plan in cache (from User)
+19:03:06,245 DEBUG HQLQueryPlan:148 : find: from User
+19:03:06,247 DEBUG QueryParameters:262 : named parameters: {}
+19:03:06,249 DEBUG AbstractBatcher:311 : about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+19:03:06,254 DEBUG SQL:346 : 
+    select
+        user0_.id as id0_,
+        user0_.name as name0_,
+        user0_.password as password0_ 
+    from
+        users user0_
+19:03:06,257 DEBUG AbstractBatcher:424 : preparing statement
+19:03:06,266 DEBUG AbstractBatcher:327 : about to open ResultSet (open ResultSets: 0, globally: 0)
+19:03:06,269 DEBUG Loader:682 : processing result set
+19:03:06,270 DEBUG Loader:687 : result set row: 0
+19:03:06,272 DEBUG LongType:123 : returning '1' as column: id0_
+19:03:06,275 DEBUG Loader:1164 : result row: EntityKey[model.User#1]
+19:03:06,277 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#1]
+19:03:06,295 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#1]
+19:03:06,298 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:03:06,300 DEBUG StringType:123 : returning '123456' as column: password0_
+19:03:06,305 DEBUG Loader:687 : result set row: 1
+19:03:06,307 DEBUG LongType:123 : returning '2' as column: id0_
+19:03:06,308 DEBUG Loader:1164 : result row: EntityKey[model.User#2]
+19:03:06,310 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#2]
+19:03:06,312 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#2]
+19:03:06,314 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:03:06,316 DEBUG StringType:123 : returning '123456' as column: password0_
+19:03:06,318 DEBUG Loader:687 : result set row: 2
+19:03:06,319 DEBUG LongType:123 : returning '3' as column: id0_
+19:03:06,321 DEBUG Loader:1164 : result row: EntityKey[model.User#3]
+19:03:06,323 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#3]
+19:03:06,325 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#3]
+19:03:06,326 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:03:06,328 DEBUG StringType:123 : returning '123456' as column: password0_
+19:03:06,330 DEBUG Loader:687 : result set row: 3
+19:03:06,332 DEBUG LongType:123 : returning '4' as column: id0_
+19:03:06,334 DEBUG Loader:1164 : result row: EntityKey[model.User#4]
+19:03:06,335 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#4]
+19:03:06,337 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#4]
+19:03:06,339 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:03:06,341 DEBUG StringType:123 : returning '123456' as column: password0_
+19:03:06,343 DEBUG Loader:687 : result set row: 4
+19:03:06,344 DEBUG LongType:123 : returning '5' as column: id0_
+19:03:06,346 DEBUG Loader:1164 : result row: EntityKey[model.User#5]
+19:03:06,348 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#5]
+19:03:06,349 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#5]
+19:03:06,351 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:03:06,353 DEBUG StringType:123 : returning '123456' as column: password0_
+19:03:06,355 DEBUG Loader:687 : result set row: 5
+19:03:06,357 DEBUG LongType:123 : returning '6' as column: id0_
+19:03:06,359 DEBUG Loader:1164 : result row: EntityKey[model.User#6]
+19:03:06,360 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#6]
+19:03:06,362 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#6]
+19:03:06,364 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:03:06,366 DEBUG StringType:123 : returning '123456' as column: password0_
+19:03:06,368 DEBUG Loader:687 : result set row: 6
+19:03:06,370 DEBUG LongType:123 : returning '7' as column: id0_
+19:03:06,371 DEBUG Loader:1164 : result row: EntityKey[model.User#7]
+19:03:06,373 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#7]
+19:03:06,375 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#7]
+19:03:06,377 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:03:06,379 DEBUG StringType:123 : returning '123456' as column: password0_
+19:03:06,381 DEBUG Loader:687 : result set row: 7
+19:03:06,383 DEBUG LongType:123 : returning '8' as column: id0_
+19:03:06,385 DEBUG Loader:1164 : result row: EntityKey[model.User#8]
+19:03:06,386 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#8]
+19:03:06,388 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#8]
+19:03:06,390 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:03:06,392 DEBUG StringType:123 : returning '123456' as column: password0_
+19:03:06,395 DEBUG Loader:709 : done processing result set (8 rows)
+19:03:06,396 DEBUG AbstractBatcher:334 : about to close ResultSet (open ResultSets: 1, globally: 1)
+19:03:06,398 DEBUG AbstractBatcher:319 : about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+19:03:06,399 DEBUG AbstractBatcher:470 : closing statement
+19:03:06,403 DEBUG Loader:839 : total objects hydrated: 8
+19:03:06,405 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#1]
+19:03:06,410 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#1]
+19:03:06,411 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#2]
+19:03:06,413 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#2]
+19:03:06,415 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#3]
+19:03:06,417 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#3]
+19:03:06,418 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#4]
+19:03:06,420 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#4]
+19:03:06,422 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#5]
+19:03:06,424 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#5]
+19:03:06,425 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#6]
+19:03:06,427 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#6]
+19:03:06,429 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#7]
+19:03:06,431 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#7]
+19:03:06,432 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#8]
+19:03:06,434 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#8]
+19:03:06,436 DEBUG StatefulPersistenceContext:821 : initializing non-lazy collections
+19:05:28,983  INFO Environment:479 : Hibernate 3.1.2
+19:05:28,989  INFO Environment:509 : hibernate.properties not found
+19:05:28,990  INFO Environment:525 : using CGLIB reflection optimizer
+19:05:28,992  INFO Environment:555 : using JDK 1.4 java.sql.Timestamp handling
+19:05:29,026  INFO Configuration:1308 : configuring from resource: /hibernate.cfg.xml
+19:05:29,027  INFO Configuration:1285 : Configuration resource: /hibernate.cfg.xml
+19:05:29,066 DEBUG DTDEntityResolver:42 : trying to locate http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath under org/hibernate/
+19:05:29,067 DEBUG DTDEntityResolver:56 : found http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath
+19:05:29,083 DEBUG Configuration:1269 : show_sql=true
+19:05:29,084 DEBUG Configuration:1269 : format_sql=true
+19:05:29,084 DEBUG Configuration:1269 : dialect=dialect.SQLiteDialect
+19:05:29,084 DEBUG Configuration:1269 : connection.driver_class=org.sqlite.JDBC
+19:05:29,085 DEBUG Configuration:1269 : connection.url=jdbc:sqlite:1.db
+19:05:29,085 DEBUG Configuration:1269 : connection.username=
+19:05:29,086 DEBUG Configuration:1269 : connection.password=
+19:05:29,086 DEBUG Configuration:1464 : null<-org.dom4j.tree.DefaultAttribute@2a3fcb7 [Attribute: name resource value "User.hbm.xml"]
+19:05:29,087  INFO Configuration:469 : Reading mappings from resource: User.hbm.xml
+19:05:29,089 DEBUG DTDEntityResolver:42 : trying to locate http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd in classpath under org/hibernate/
+19:05:29,091 DEBUG DTDEntityResolver:56 : found http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd in classpath
+19:05:29,169  INFO HbmBinder:309 : Mapping class: model.User -> users
+19:05:29,174 DEBUG HbmBinder:1261 : Mapped property: id -> id
+19:05:29,179 DEBUG HbmBinder:1261 : Mapped property: name -> name
+19:05:29,180 DEBUG HbmBinder:1261 : Mapped property: password -> password
+19:05:29,180  INFO Configuration:1419 : Configured SessionFactory: null
+19:05:29,181 DEBUG Configuration:1420 : properties: {hibernate.connection.password=, java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=/home/sumit/jdk1.7.0_51/jre/lib/amd64, java.vm.version=24.51-b03, hibernate.connection.username=, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=IN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/sumit/hdbstudio/HibernateSQLite, java.runtime.version=1.7.0_51-b13, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/home/sumit/jdk1.7.0_51/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Linux, sun.jnu.encoding=UTF-8, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=51.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=3.8.0-35-generic, connection.password=, user.home=/home/sumit, user.timezone=Asia/Kolkata, connection.username=, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.7, hibernate.format_sql=true, hibernate.connection.driver_class=org.sqlite.JDBC, show_sql=true, user.name=sumit, java.class.path=/home/sumit/hdbstudio/HibernateSQLite/target/classes:/home/sumit/hdbstudio/HibernateSQLite/antlr.jar:/home/sumit/hdbstudio/HibernateSQLite/asm.jar:/home/sumit/hdbstudio/HibernateSQLite/asm-attrs.jar:/home/sumit/hdbstudio/HibernateSQLite/c3p0-0.9.0.jar:/home/sumit/hdbstudio/HibernateSQLite/cglib-2.1.3.jar:/home/sumit/hdbstudio/HibernateSQLite/commons-collections-2.1.1.jar:/home/sumit/hdbstudio/HibernateSQLite/commons-logging-1.0.4.jar:/home/sumit/hdbstudio/HibernateSQLite/dom4j-1.6.1.jar:/home/sumit/hdbstudio/HibernateSQLite/ehcache-1.1.jar:/home/sumit/hdbstudio/HibernateSQLite/hibernate3.jar:/home/sumit/hdbstudio/HibernateSQLite/jta.jar:/home/sumit/hdbstudio/HibernateSQLite/junit-4.4.jar:/home/sumit/hdbstudio/HibernateSQLite/log4j-1.2.9.jar:/home/sumit/hdbstudio/HibernateSQLite/xml-apis.jar:/home/sumit/hdbstudio/HibernateSQLite/sqlite-jdbc-3.6.0.jar, format_sql=true, hibernate.show_sql=true, java.vm.specification.version=1.7, sun.java.command=runner.HibernateExampleRunner, java.home=/home/sumit/jdk1.7.0_51/jre, sun.arch.data.model=64, hibernate.connection.url=jdbc:sqlite:1.db, hibernate.dialect=dialect.SQLiteDialect, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.X11.XToolkit, hibernate.cglib.use_reflection_optimizer=true, java.vm.info=mixed mode, java.version=1.7.0_51, java.ext.dirs=/home/sumit/jdk1.7.0_51/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/home/sumit/jdk1.7.0_51/jre/lib/resources.jar:/home/sumit/jdk1.7.0_51/jre/lib/rt.jar:/home/sumit/jdk1.7.0_51/jre/lib/sunrsasign.jar:/home/sumit/jdk1.7.0_51/jre/lib/jsse.jar:/home/sumit/jdk1.7.0_51/jre/lib/jce.jar:/home/sumit/jdk1.7.0_51/jre/lib/charsets.jar:/home/sumit/jdk1.7.0_51/jre/lib/jfr.jar:/home/sumit/jdk1.7.0_51/jre/classes, java.vendor=Oracle Corporation, connection.driver_class=org.sqlite.JDBC, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=gnome, connection.url=jdbc:sqlite:1.db, dialect=dialect.SQLiteDialect, sun.cpu.isalist=}
+19:05:29,181 DEBUG Configuration:1167 : Preparing to build session factory with filters : {}
+19:05:29,182 DEBUG Configuration:1002 : processing extends queue
+19:05:29,182 DEBUG Configuration:1006 : processing collection mappings
+19:05:29,182 DEBUG Configuration:1017 : processing native query and ResultSetMapping mappings
+19:05:29,183 DEBUG Configuration:1025 : processing association property references
+19:05:29,183 DEBUG Configuration:1047 : processing foreign key constraints
+19:05:29,216  INFO DriverManagerConnectionProvider:41 : Using Hibernate built-in connection pool (not for production use!)
+19:05:29,216  INFO DriverManagerConnectionProvider:42 : Hibernate connection pool size: 20
+19:05:29,217  INFO DriverManagerConnectionProvider:45 : autocommit mode: false
+19:05:29,221  INFO DriverManagerConnectionProvider:80 : using driver: org.sqlite.JDBC at URL: jdbc:sqlite:1.db
+19:05:29,221  INFO DriverManagerConnectionProvider:83 : connection properties: {user=, password=}
+19:05:29,221 DEBUG DriverManagerConnectionProvider:93 : total checked-out connections: 0
+19:05:29,221 DEBUG DriverManagerConnectionProvider:109 : opening new JDBC connection
+19:05:29,363 DEBUG DriverManagerConnectionProvider:115 : created connection to: jdbc:sqlite:1.db, Isolation Level: 8
+19:05:29,366  INFO SettingsFactory:77 : RDBMS: SQLite, version: 3.6.0
+19:05:29,367  INFO SettingsFactory:78 : JDBC driver: SQLiteJDBC, version: native
+19:05:29,367 DEBUG DriverManagerConnectionProvider:129 : returning connection to pool, pool size: 1
+19:05:29,378  INFO Dialect:103 : Using dialect: dialect.SQLiteDialect
+19:05:29,381  INFO TransactionFactoryFactory:31 : Using default transaction strategy (direct JDBC transactions)
+19:05:29,382  INFO TransactionManagerLookupFactory:33 : No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+19:05:29,382  INFO SettingsFactory:125 : Automatic flush during beforeCompletion(): disabled
+19:05:29,383  INFO SettingsFactory:129 : Automatic session close at end of transaction: disabled
+19:05:29,383  INFO SettingsFactory:144 : Scrollable result sets: disabled
+19:05:29,384 DEBUG SettingsFactory:148 : Wrap result sets: disabled
+19:05:29,384  INFO SettingsFactory:152 : JDBC3 getGeneratedKeys(): disabled
+19:05:29,384  INFO SettingsFactory:160 : Connection release mode: auto
+19:05:29,385  INFO SettingsFactory:187 : Default batch fetch size: 1
+19:05:29,385  INFO SettingsFactory:191 : Generate SQL with comments: disabled
+19:05:29,385  INFO SettingsFactory:195 : Order SQL updates by primary key: disabled
+19:05:29,385  INFO SettingsFactory:338 : Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+19:05:29,387  INFO ASTQueryTranslatorFactory:24 : Using ASTQueryTranslatorFactory
+19:05:29,387  INFO SettingsFactory:203 : Query language substitutions: {}
+19:05:29,388  INFO SettingsFactory:209 : Second-level cache: enabled
+19:05:29,388  INFO SettingsFactory:213 : Query cache: disabled
+19:05:29,388  INFO SettingsFactory:325 : Cache provider: org.hibernate.cache.EhCacheProvider
+19:05:29,390  INFO SettingsFactory:228 : Optimize cache for minimal puts: disabled
+19:05:29,390  INFO SettingsFactory:237 : Structured second-level cache entries: disabled
+19:05:29,391 DEBUG SQLExceptionConverterFactory:52 : Using dialect defined converter
+19:05:29,393  INFO SettingsFactory:257 : Echoing all SQL to stdout
+19:05:29,393  INFO SettingsFactory:264 : Statistics: disabled
+19:05:29,393  INFO SettingsFactory:268 : Deleted entity synthetic identifier rollback: disabled
+19:05:29,394  INFO SettingsFactory:283 : Default entity-mode: pojo
+19:05:29,413  INFO SessionFactoryImpl:153 : building session factory
+19:05:29,413 DEBUG SessionFactoryImpl:164 : Session factory constructed with filter configurations : {}
+19:05:29,413 DEBUG SessionFactoryImpl:167 : instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.password=, sun.boot.library.path=/home/sumit/jdk1.7.0_51/jre/lib/amd64, java.vm.version=24.51-b03, hibernate.connection.username=, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=IN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/sumit/hdbstudio/HibernateSQLite, java.runtime.version=1.7.0_51-b13, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/home/sumit/jdk1.7.0_51/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Linux, sun.jnu.encoding=UTF-8, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=51.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=3.8.0-35-generic, user.home=/home/sumit, connection.password=, user.timezone=Asia/Kolkata, java.awt.printerjob=sun.print.PSPrinterJob, connection.username=, java.specification.version=1.7, file.encoding=UTF-8, hibernate.format_sql=true, hibernate.connection.driver_class=org.sqlite.JDBC, show_sql=true, java.class.path=/home/sumit/hdbstudio/HibernateSQLite/target/classes:/home/sumit/hdbstudio/HibernateSQLite/antlr.jar:/home/sumit/hdbstudio/HibernateSQLite/asm.jar:/home/sumit/hdbstudio/HibernateSQLite/asm-attrs.jar:/home/sumit/hdbstudio/HibernateSQLite/c3p0-0.9.0.jar:/home/sumit/hdbstudio/HibernateSQLite/cglib-2.1.3.jar:/home/sumit/hdbstudio/HibernateSQLite/commons-collections-2.1.1.jar:/home/sumit/hdbstudio/HibernateSQLite/commons-logging-1.0.4.jar:/home/sumit/hdbstudio/HibernateSQLite/dom4j-1.6.1.jar:/home/sumit/hdbstudio/HibernateSQLite/ehcache-1.1.jar:/home/sumit/hdbstudio/HibernateSQLite/hibernate3.jar:/home/sumit/hdbstudio/HibernateSQLite/jta.jar:/home/sumit/hdbstudio/HibernateSQLite/junit-4.4.jar:/home/sumit/hdbstudio/HibernateSQLite/log4j-1.2.9.jar:/home/sumit/hdbstudio/HibernateSQLite/xml-apis.jar:/home/sumit/hdbstudio/HibernateSQLite/sqlite-jdbc-3.6.0.jar, user.name=sumit, format_sql=true, hibernate.show_sql=true, java.vm.specification.version=1.7, sun.arch.data.model=64, java.home=/home/sumit/jdk1.7.0_51/jre, sun.java.command=runner.HibernateExampleRunner, hibernate.dialect=dialect.SQLiteDialect, hibernate.connection.url=jdbc:sqlite:1.db, java.specification.vendor=Oracle Corporation, user.language=en, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, hibernate.cglib.use_reflection_optimizer=true, java.version=1.7.0_51, java.ext.dirs=/home/sumit/jdk1.7.0_51/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/home/sumit/jdk1.7.0_51/jre/lib/resources.jar:/home/sumit/jdk1.7.0_51/jre/lib/rt.jar:/home/sumit/jdk1.7.0_51/jre/lib/sunrsasign.jar:/home/sumit/jdk1.7.0_51/jre/lib/jsse.jar:/home/sumit/jdk1.7.0_51/jre/lib/jce.jar:/home/sumit/jdk1.7.0_51/jre/lib/charsets.jar:/home/sumit/jdk1.7.0_51/jre/lib/jfr.jar:/home/sumit/jdk1.7.0_51/jre/classes, java.vendor=Oracle Corporation, file.separator=/, connection.driver_class=org.sqlite.JDBC, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=gnome, connection.url=jdbc:sqlite:1.db, sun.cpu.isalist=, dialect=dialect.SQLiteDialect}
+19:05:29,422 DEBUG CacheManager:191 : Creating new CacheManager with default config
+19:05:29,424 DEBUG CacheManager:164 : Configuring ehcache from classpath.
+19:05:29,426  WARN Configurator:126 : No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/home/sumit/hdbstudio/HibernateSQLite/ehcache-1.1.jar!/ehcache-failsafe.xml
+19:05:29,430 DEBUG Configuration$DiskStore:185 : Disk Store Path: /tmp
+19:05:29,581 DEBUG AbstractEntityPersister:2447 : Static SQL for entity: model.User
+19:05:29,581 DEBUG AbstractEntityPersister:2449 :  Version select: select id from users where id =?
+19:05:29,582 DEBUG AbstractEntityPersister:2450 :  Snapshot select: select user_.id, user_.name as name0_, user_.password as password0_ from users user_ where user_.id=?
+19:05:29,582 DEBUG AbstractEntityPersister:2452 :  Insert 0: insert into users (name, password, id) values (?, ?, ?)
+19:05:29,582 DEBUG AbstractEntityPersister:2453 :  Update 0: update users set name=?, password=? where id=?
+19:05:29,582 DEBUG AbstractEntityPersister:2454 :  Delete 0: delete from users where id=?
+19:05:29,582 DEBUG AbstractEntityPersister:2457 :  Identity insert: insert into users (name, password) values (?, ?)
+19:05:29,592 DEBUG EntityLoader:79 : Static select for entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+19:05:29,592 DEBUG EntityLoader:79 : Static select for entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+19:05:29,592 DEBUG EntityLoader:79 : Static select for entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+19:05:29,593 DEBUG EntityLoader:79 : Static select for entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+19:05:29,597 DEBUG EntityLoader:67 : Static select for action ACTION_MERGE on entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+19:05:29,597 DEBUG EntityLoader:67 : Static select for action ACTION_REFRESH on entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+19:05:29,599 DEBUG SessionFactoryObjectFactory:39 : initializing class SessionFactoryObjectFactory
+19:05:29,600 DEBUG SessionFactoryObjectFactory:76 : registered: ff8081814488280a014488280b3d0000 (unnamed)
+19:05:29,600  INFO SessionFactoryObjectFactory:82 : Not binding factory to JNDI, no JNDI name configured
+19:05:29,600 DEBUG SessionFactoryImpl:292 : instantiated session factory
+19:05:29,600 DEBUG SessionFactoryImpl:353 : Checking 0 named HQL queries
+19:05:29,601 DEBUG SessionFactoryImpl:373 : Checking 0 named SQL queries
+19:05:29,617 DEBUG SessionImpl:273 : opened session at timestamp: 5709224876445696
+19:05:29,619 DEBUG QueryPlanCache:69 : unable to locate HQL query plan in cache; generating (from User)
+19:05:29,643 DEBUG QueryTranslatorImpl:236 : parse() - HQL: from model.User
+19:05:29,649 DEBUG AST:252 : --- HQL AST ---
+ \-[QUERY] 'query'
+    \-[SELECT_FROM] 'SELECT_FROM'
+       \-[FROM] 'from'
+          \-[RANGE] 'RANGE'
+             \-[DOT] '.'
+                +-[IDENT] 'model'
+                \-[IDENT] 'User'
+
+19:05:29,649 DEBUG ErrorCounter:68 : throwQueryException() : no errors
+19:05:29,666 DEBUG HqlSqlBaseWalker:111 : select << begin [level=1, statement=select]
+19:05:29,675 DEBUG FromElement:104 : FromClause{level=1} :  model.User (no alias) -> user0_
+19:05:29,675 DEBUG HqlSqlBaseWalker:117 : select : finishing up [level=1, statement=select]
+19:05:29,675 DEBUG HqlSqlWalker:446 : processQuery() :  ( SELECT ( FromClause{level=1} users user0_ ) )
+19:05:29,678 DEBUG HqlSqlWalker:648 : Derived SELECT clause created.
+19:05:29,681 DEBUG JoinProcessor:128 : Using FROM fragment [users user0_]
+19:05:29,681 DEBUG HqlSqlBaseWalker:123 : select >> end [level=1, statement=select]
+19:05:29,683 DEBUG AST:222 : --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (users)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'user0_.id as id0_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=users,tableAlias=user0_,origin=null,colums={,className=model.User}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'user0_.name as name0_, user0_.password as password0_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[user0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'users user0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=users,tableAlias=user0_,origin=null,colums={,className=model.User}}
+
+19:05:29,683 DEBUG ErrorCounter:68 : throwQueryException() : no errors
+19:05:29,688 DEBUG QueryTranslatorImpl:206 : HQL: from model.User
+19:05:29,688 DEBUG QueryTranslatorImpl:207 : SQL: select user0_.id as id0_, user0_.name as name0_, user0_.password as password0_ from users user0_
+19:05:29,688 DEBUG ErrorCounter:68 : throwQueryException() : no errors
+19:05:29,692 DEBUG HQLQueryPlan:219 : HQL param location recognition took 1 mills (from User)
+19:05:29,695 DEBUG QueryPlanCache:75 : located HQL query plan in cache (from User)
+19:05:29,695 DEBUG HQLQueryPlan:148 : find: from User
+19:05:29,695 DEBUG QueryParameters:262 : named parameters: {}
+19:05:29,696 DEBUG AbstractBatcher:311 : about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+19:05:29,696 DEBUG ConnectionManager:358 : opening JDBC connection
+19:05:29,696 DEBUG DriverManagerConnectionProvider:93 : total checked-out connections: 0
+19:05:29,697 DEBUG DriverManagerConnectionProvider:99 : using pooled JDBC connection, pool size: 0
+19:05:29,698 DEBUG SQL:346 : 
+    select
+        user0_.id as id0_,
+        user0_.name as name0_,
+        user0_.password as password0_ 
+    from
+        users user0_
+19:05:29,698 DEBUG AbstractBatcher:424 : preparing statement
+19:05:29,703 DEBUG AbstractBatcher:327 : about to open ResultSet (open ResultSets: 0, globally: 0)
+19:05:29,704 DEBUG Loader:682 : processing result set
+19:05:29,704 DEBUG Loader:687 : result set row: 0
+19:05:29,704 DEBUG LongType:123 : returning '1' as column: id0_
+19:05:29,706 DEBUG Loader:1164 : result row: EntityKey[model.User#1]
+19:05:29,706 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#1]
+19:05:29,708 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#1]
+19:05:29,709 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:05:29,709 DEBUG StringType:123 : returning '123456' as column: password0_
+19:05:29,710 DEBUG Loader:687 : result set row: 1
+19:05:29,710 DEBUG LongType:123 : returning '2' as column: id0_
+19:05:29,710 DEBUG Loader:1164 : result row: EntityKey[model.User#2]
+19:05:29,710 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#2]
+19:05:29,710 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#2]
+19:05:29,716 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:05:29,716 DEBUG StringType:123 : returning '123456' as column: password0_
+19:05:29,716 DEBUG Loader:687 : result set row: 2
+19:05:29,717 DEBUG LongType:123 : returning '3' as column: id0_
+19:05:29,717 DEBUG Loader:1164 : result row: EntityKey[model.User#3]
+19:05:29,717 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#3]
+19:05:29,717 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#3]
+19:05:29,717 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:05:29,718 DEBUG StringType:123 : returning '123456' as column: password0_
+19:05:29,718 DEBUG Loader:687 : result set row: 3
+19:05:29,718 DEBUG LongType:123 : returning '4' as column: id0_
+19:05:29,719 DEBUG Loader:1164 : result row: EntityKey[model.User#4]
+19:05:29,719 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#4]
+19:05:29,719 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#4]
+19:05:29,720 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:05:29,720 DEBUG StringType:123 : returning '123456' as column: password0_
+19:05:29,720 DEBUG Loader:687 : result set row: 4
+19:05:29,720 DEBUG LongType:123 : returning '5' as column: id0_
+19:05:29,721 DEBUG Loader:1164 : result row: EntityKey[model.User#5]
+19:05:29,721 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#5]
+19:05:29,721 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#5]
+19:05:29,721 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:05:29,721 DEBUG StringType:123 : returning '123456' as column: password0_
+19:05:29,722 DEBUG Loader:687 : result set row: 5
+19:05:29,722 DEBUG LongType:123 : returning '6' as column: id0_
+19:05:29,722 DEBUG Loader:1164 : result row: EntityKey[model.User#6]
+19:05:29,722 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#6]
+19:05:29,722 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#6]
+19:05:29,723 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:05:29,723 DEBUG StringType:123 : returning '123456' as column: password0_
+19:05:29,723 DEBUG Loader:687 : result set row: 6
+19:05:29,723 DEBUG LongType:123 : returning '7' as column: id0_
+19:05:29,723 DEBUG Loader:1164 : result row: EntityKey[model.User#7]
+19:05:29,724 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#7]
+19:05:29,724 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#7]
+19:05:29,724 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:05:29,724 DEBUG StringType:123 : returning '123456' as column: password0_
+19:05:29,724 DEBUG Loader:687 : result set row: 7
+19:05:29,725 DEBUG LongType:123 : returning '8' as column: id0_
+19:05:29,725 DEBUG Loader:1164 : result row: EntityKey[model.User#8]
+19:05:29,725 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#8]
+19:05:29,725 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#8]
+19:05:29,725 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:05:29,725 DEBUG StringType:123 : returning '123456' as column: password0_
+19:05:29,726 DEBUG Loader:709 : done processing result set (8 rows)
+19:05:29,726 DEBUG AbstractBatcher:334 : about to close ResultSet (open ResultSets: 1, globally: 1)
+19:05:29,726 DEBUG AbstractBatcher:319 : about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+19:05:29,726 DEBUG AbstractBatcher:470 : closing statement
+19:05:29,728 DEBUG Loader:839 : total objects hydrated: 8
+19:05:29,728 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#1]
+19:05:29,730 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#1]
+19:05:29,730 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#2]
+19:05:29,730 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#2]
+19:05:29,730 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#3]
+19:05:29,731 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#3]
+19:05:29,731 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#4]
+19:05:29,731 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#4]
+19:05:29,731 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#5]
+19:05:29,732 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#5]
+19:05:29,732 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#6]
+19:05:29,732 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#6]
+19:05:29,732 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#7]
+19:05:29,733 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#7]
+19:05:29,733 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#8]
+19:05:29,733 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#8]
+19:05:29,733 DEBUG StatefulPersistenceContext:821 : initializing non-lazy collections
+19:05:29,734 DEBUG JDBCContext:213 : after autocommit
+19:05:29,734 DEBUG ConnectionManager:341 : aggressively releasing JDBC connection
+19:05:29,734 DEBUG ConnectionManager:378 : releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+19:05:29,735 DEBUG DriverManagerConnectionProvider:129 : returning connection to pool, pool size: 1
+19:05:29,736 DEBUG SessionImpl:291 : closing session
+19:05:29,736 DEBUG ConnectionManager:312 : connection already null in cleanup : no action
+19:05:29,736  INFO SessionFactoryImpl:728 : closing
+19:05:29,737  INFO DriverManagerConnectionProvider:147 : cleaning up connection pool: jdbc:sqlite:1.db
+19:12:54,942  INFO Environment:479 : Hibernate 3.1.2
+19:12:54,950  INFO Environment:509 : hibernate.properties not found
+19:12:54,952  INFO Environment:525 : using CGLIB reflection optimizer
+19:12:54,954  INFO Environment:555 : using JDK 1.4 java.sql.Timestamp handling
+19:12:54,987  INFO Configuration:1308 : configuring from resource: /hibernate.cfg.xml
+19:12:54,988  INFO Configuration:1285 : Configuration resource: /hibernate.cfg.xml
+19:12:55,026 DEBUG DTDEntityResolver:42 : trying to locate http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath under org/hibernate/
+19:12:55,028 DEBUG DTDEntityResolver:56 : found http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath
+19:12:55,043 DEBUG Configuration:1269 : show_sql=true
+19:12:55,044 DEBUG Configuration:1269 : format_sql=true
+19:12:55,044 DEBUG Configuration:1269 : dialect=dialect.SQLiteDialect
+19:12:55,045 DEBUG Configuration:1269 : connection.driver_class=org.sqlite.JDBC
+19:12:55,045 DEBUG Configuration:1269 : connection.url=jdbc:sqlite:1.db
+19:12:55,046 DEBUG Configuration:1269 : connection.username=
+19:12:55,046 DEBUG Configuration:1269 : connection.password=
+19:12:55,047 DEBUG Configuration:1464 : null<-org.dom4j.tree.DefaultAttribute@53f9b62f [Attribute: name resource value "User.hbm.xml"]
+19:12:55,047  INFO Configuration:469 : Reading mappings from resource: User.hbm.xml
+19:12:55,050 DEBUG DTDEntityResolver:42 : trying to locate http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd in classpath under org/hibernate/
+19:12:55,051 DEBUG DTDEntityResolver:56 : found http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd in classpath
+19:12:55,131  INFO HbmBinder:309 : Mapping class: model.User -> users
+19:12:55,135 DEBUG HbmBinder:1261 : Mapped property: id -> id
+19:12:55,140 DEBUG HbmBinder:1261 : Mapped property: name -> name
+19:12:55,141 DEBUG HbmBinder:1261 : Mapped property: password -> password
+19:12:55,141  INFO Configuration:1419 : Configured SessionFactory: null
+19:12:55,142 DEBUG Configuration:1420 : properties: {hibernate.connection.password=, java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=/home/sumit/jdk1.7.0_51/jre/lib/amd64, java.vm.version=24.51-b03, hibernate.connection.username=, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=IN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/sumit/hdbstudio/HibernateSQLite, java.runtime.version=1.7.0_51-b13, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/home/sumit/jdk1.7.0_51/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Linux, sun.jnu.encoding=UTF-8, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=51.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=3.8.0-35-generic, connection.password=, user.home=/home/sumit, user.timezone=Asia/Kolkata, connection.username=, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.7, hibernate.format_sql=true, hibernate.connection.driver_class=org.sqlite.JDBC, show_sql=true, user.name=sumit, java.class.path=/home/sumit/hdbstudio/HibernateSQLite/target/classes:/home/sumit/hdbstudio/HibernateSQLite/antlr.jar:/home/sumit/hdbstudio/HibernateSQLite/asm.jar:/home/sumit/hdbstudio/HibernateSQLite/asm-attrs.jar:/home/sumit/hdbstudio/HibernateSQLite/c3p0-0.9.0.jar:/home/sumit/hdbstudio/HibernateSQLite/cglib-2.1.3.jar:/home/sumit/hdbstudio/HibernateSQLite/commons-collections-2.1.1.jar:/home/sumit/hdbstudio/HibernateSQLite/commons-logging-1.0.4.jar:/home/sumit/hdbstudio/HibernateSQLite/dom4j-1.6.1.jar:/home/sumit/hdbstudio/HibernateSQLite/ehcache-1.1.jar:/home/sumit/hdbstudio/HibernateSQLite/hibernate3.jar:/home/sumit/hdbstudio/HibernateSQLite/jta.jar:/home/sumit/hdbstudio/HibernateSQLite/junit-4.4.jar:/home/sumit/hdbstudio/HibernateSQLite/log4j-1.2.9.jar:/home/sumit/hdbstudio/HibernateSQLite/xml-apis.jar:/home/sumit/hdbstudio/HibernateSQLite/sqlite-jdbc-3.6.0.jar, format_sql=true, hibernate.show_sql=true, java.vm.specification.version=1.7, sun.java.command=runner.HibernateExampleRunner, java.home=/home/sumit/jdk1.7.0_51/jre, sun.arch.data.model=64, hibernate.connection.url=jdbc:sqlite:1.db, hibernate.dialect=dialect.SQLiteDialect, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.X11.XToolkit, hibernate.cglib.use_reflection_optimizer=true, java.vm.info=mixed mode, java.version=1.7.0_51, java.ext.dirs=/home/sumit/jdk1.7.0_51/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/home/sumit/jdk1.7.0_51/jre/lib/resources.jar:/home/sumit/jdk1.7.0_51/jre/lib/rt.jar:/home/sumit/jdk1.7.0_51/jre/lib/sunrsasign.jar:/home/sumit/jdk1.7.0_51/jre/lib/jsse.jar:/home/sumit/jdk1.7.0_51/jre/lib/jce.jar:/home/sumit/jdk1.7.0_51/jre/lib/charsets.jar:/home/sumit/jdk1.7.0_51/jre/lib/jfr.jar:/home/sumit/jdk1.7.0_51/jre/classes, java.vendor=Oracle Corporation, connection.driver_class=org.sqlite.JDBC, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=gnome, connection.url=jdbc:sqlite:1.db, dialect=dialect.SQLiteDialect, sun.cpu.isalist=}
+19:12:55,142 DEBUG Configuration:1167 : Preparing to build session factory with filters : {}
+19:12:55,142 DEBUG Configuration:1002 : processing extends queue
+19:12:55,143 DEBUG Configuration:1006 : processing collection mappings
+19:12:55,143 DEBUG Configuration:1017 : processing native query and ResultSetMapping mappings
+19:12:55,143 DEBUG Configuration:1025 : processing association property references
+19:12:55,143 DEBUG Configuration:1047 : processing foreign key constraints
+19:12:55,176  INFO DriverManagerConnectionProvider:41 : Using Hibernate built-in connection pool (not for production use!)
+19:12:55,176  INFO DriverManagerConnectionProvider:42 : Hibernate connection pool size: 20
+19:12:55,177  INFO DriverManagerConnectionProvider:45 : autocommit mode: false
+19:12:55,180  INFO DriverManagerConnectionProvider:80 : using driver: org.sqlite.JDBC at URL: jdbc:sqlite:1.db
+19:12:55,180  INFO DriverManagerConnectionProvider:83 : connection properties: {user=, password=}
+19:12:55,181 DEBUG DriverManagerConnectionProvider:93 : total checked-out connections: 0
+19:12:55,181 DEBUG DriverManagerConnectionProvider:109 : opening new JDBC connection
+19:12:55,314 DEBUG DriverManagerConnectionProvider:115 : created connection to: jdbc:sqlite:1.db, Isolation Level: 8
+19:12:55,316  INFO SettingsFactory:77 : RDBMS: SQLite, version: 3.6.0
+19:12:55,317  INFO SettingsFactory:78 : JDBC driver: SQLiteJDBC, version: native
+19:12:55,317 DEBUG DriverManagerConnectionProvider:129 : returning connection to pool, pool size: 1
+19:12:55,327  INFO Dialect:103 : Using dialect: dialect.SQLiteDialect
+19:12:55,330  INFO TransactionFactoryFactory:31 : Using default transaction strategy (direct JDBC transactions)
+19:12:55,332  INFO TransactionManagerLookupFactory:33 : No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+19:12:55,332  INFO SettingsFactory:125 : Automatic flush during beforeCompletion(): disabled
+19:12:55,332  INFO SettingsFactory:129 : Automatic session close at end of transaction: disabled
+19:12:55,333  INFO SettingsFactory:144 : Scrollable result sets: disabled
+19:12:55,333 DEBUG SettingsFactory:148 : Wrap result sets: disabled
+19:12:55,333  INFO SettingsFactory:152 : JDBC3 getGeneratedKeys(): disabled
+19:12:55,334  INFO SettingsFactory:160 : Connection release mode: auto
+19:12:55,334  INFO SettingsFactory:187 : Default batch fetch size: 1
+19:12:55,335  INFO SettingsFactory:191 : Generate SQL with comments: disabled
+19:12:55,335  INFO SettingsFactory:195 : Order SQL updates by primary key: disabled
+19:12:55,335  INFO SettingsFactory:338 : Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+19:12:55,337  INFO ASTQueryTranslatorFactory:24 : Using ASTQueryTranslatorFactory
+19:12:55,337  INFO SettingsFactory:203 : Query language substitutions: {}
+19:12:55,337  INFO SettingsFactory:209 : Second-level cache: enabled
+19:12:55,338  INFO SettingsFactory:213 : Query cache: disabled
+19:12:55,338  INFO SettingsFactory:325 : Cache provider: org.hibernate.cache.EhCacheProvider
+19:12:55,340  INFO SettingsFactory:228 : Optimize cache for minimal puts: disabled
+19:12:55,340  INFO SettingsFactory:237 : Structured second-level cache entries: disabled
+19:12:55,341 DEBUG SQLExceptionConverterFactory:52 : Using dialect defined converter
+19:12:55,343  INFO SettingsFactory:257 : Echoing all SQL to stdout
+19:12:55,343  INFO SettingsFactory:264 : Statistics: disabled
+19:12:55,343  INFO SettingsFactory:268 : Deleted entity synthetic identifier rollback: disabled
+19:12:55,343  INFO SettingsFactory:283 : Default entity-mode: pojo
+19:12:55,362  INFO SessionFactoryImpl:153 : building session factory
+19:12:55,363 DEBUG SessionFactoryImpl:164 : Session factory constructed with filter configurations : {}
+19:12:55,363 DEBUG SessionFactoryImpl:167 : instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.password=, sun.boot.library.path=/home/sumit/jdk1.7.0_51/jre/lib/amd64, java.vm.version=24.51-b03, hibernate.connection.username=, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=IN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/sumit/hdbstudio/HibernateSQLite, java.runtime.version=1.7.0_51-b13, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/home/sumit/jdk1.7.0_51/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Linux, sun.jnu.encoding=UTF-8, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=51.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=3.8.0-35-generic, user.home=/home/sumit, connection.password=, user.timezone=Asia/Kolkata, java.awt.printerjob=sun.print.PSPrinterJob, connection.username=, java.specification.version=1.7, file.encoding=UTF-8, hibernate.format_sql=true, hibernate.connection.driver_class=org.sqlite.JDBC, show_sql=true, java.class.path=/home/sumit/hdbstudio/HibernateSQLite/target/classes:/home/sumit/hdbstudio/HibernateSQLite/antlr.jar:/home/sumit/hdbstudio/HibernateSQLite/asm.jar:/home/sumit/hdbstudio/HibernateSQLite/asm-attrs.jar:/home/sumit/hdbstudio/HibernateSQLite/c3p0-0.9.0.jar:/home/sumit/hdbstudio/HibernateSQLite/cglib-2.1.3.jar:/home/sumit/hdbstudio/HibernateSQLite/commons-collections-2.1.1.jar:/home/sumit/hdbstudio/HibernateSQLite/commons-logging-1.0.4.jar:/home/sumit/hdbstudio/HibernateSQLite/dom4j-1.6.1.jar:/home/sumit/hdbstudio/HibernateSQLite/ehcache-1.1.jar:/home/sumit/hdbstudio/HibernateSQLite/hibernate3.jar:/home/sumit/hdbstudio/HibernateSQLite/jta.jar:/home/sumit/hdbstudio/HibernateSQLite/junit-4.4.jar:/home/sumit/hdbstudio/HibernateSQLite/log4j-1.2.9.jar:/home/sumit/hdbstudio/HibernateSQLite/xml-apis.jar:/home/sumit/hdbstudio/HibernateSQLite/sqlite-jdbc-3.6.0.jar, user.name=sumit, format_sql=true, hibernate.show_sql=true, java.vm.specification.version=1.7, sun.arch.data.model=64, java.home=/home/sumit/jdk1.7.0_51/jre, sun.java.command=runner.HibernateExampleRunner, hibernate.dialect=dialect.SQLiteDialect, hibernate.connection.url=jdbc:sqlite:1.db, java.specification.vendor=Oracle Corporation, user.language=en, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, hibernate.cglib.use_reflection_optimizer=true, java.version=1.7.0_51, java.ext.dirs=/home/sumit/jdk1.7.0_51/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/home/sumit/jdk1.7.0_51/jre/lib/resources.jar:/home/sumit/jdk1.7.0_51/jre/lib/rt.jar:/home/sumit/jdk1.7.0_51/jre/lib/sunrsasign.jar:/home/sumit/jdk1.7.0_51/jre/lib/jsse.jar:/home/sumit/jdk1.7.0_51/jre/lib/jce.jar:/home/sumit/jdk1.7.0_51/jre/lib/charsets.jar:/home/sumit/jdk1.7.0_51/jre/lib/jfr.jar:/home/sumit/jdk1.7.0_51/jre/classes, java.vendor=Oracle Corporation, file.separator=/, connection.driver_class=org.sqlite.JDBC, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=gnome, connection.url=jdbc:sqlite:1.db, sun.cpu.isalist=, dialect=dialect.SQLiteDialect}
+19:12:55,371 DEBUG CacheManager:191 : Creating new CacheManager with default config
+19:12:55,373 DEBUG CacheManager:164 : Configuring ehcache from classpath.
+19:12:55,375  WARN Configurator:126 : No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/home/sumit/hdbstudio/HibernateSQLite/ehcache-1.1.jar!/ehcache-failsafe.xml
+19:12:55,380 DEBUG Configuration$DiskStore:185 : Disk Store Path: /tmp
+19:12:55,519 DEBUG AbstractEntityPersister:2447 : Static SQL for entity: model.User
+19:12:55,519 DEBUG AbstractEntityPersister:2449 :  Version select: select id from users where id =?
+19:12:55,520 DEBUG AbstractEntityPersister:2450 :  Snapshot select: select user_.id, user_.name as name0_, user_.password as password0_ from users user_ where user_.id=?
+19:12:55,520 DEBUG AbstractEntityPersister:2452 :  Insert 0: insert into users (name, password, id) values (?, ?, ?)
+19:12:55,520 DEBUG AbstractEntityPersister:2453 :  Update 0: update users set name=?, password=? where id=?
+19:12:55,520 DEBUG AbstractEntityPersister:2454 :  Delete 0: delete from users where id=?
+19:12:55,521 DEBUG AbstractEntityPersister:2457 :  Identity insert: insert into users (name, password) values (?, ?)
+19:12:55,532 DEBUG EntityLoader:79 : Static select for entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+19:12:55,533 DEBUG EntityLoader:79 : Static select for entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+19:12:55,533 DEBUG EntityLoader:79 : Static select for entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+19:12:55,533 DEBUG EntityLoader:79 : Static select for entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+19:12:55,537 DEBUG EntityLoader:67 : Static select for action ACTION_MERGE on entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+19:12:55,538 DEBUG EntityLoader:67 : Static select for action ACTION_REFRESH on entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+19:12:55,539 DEBUG SessionFactoryObjectFactory:39 : initializing class SessionFactoryObjectFactory
+19:12:55,540 DEBUG SessionFactoryObjectFactory:76 : registered: ff80818144882ed80144882ed9320000 (unnamed)
+19:12:55,540  INFO SessionFactoryObjectFactory:82 : Not binding factory to JNDI, no JNDI name configured
+19:12:55,541 DEBUG SessionFactoryImpl:292 : instantiated session factory
+19:12:55,541 DEBUG SessionFactoryImpl:353 : Checking 0 named HQL queries
+19:12:55,541 DEBUG SessionFactoryImpl:373 : Checking 0 named SQL queries
+19:12:55,558 DEBUG SessionImpl:273 : opened session at timestamp: 5709226703020032
+19:12:55,559 DEBUG JDBCTransaction:54 : begin
+19:12:55,559 DEBUG ConnectionManager:358 : opening JDBC connection
+19:12:55,559 DEBUG DriverManagerConnectionProvider:93 : total checked-out connections: 0
+19:12:55,559 DEBUG DriverManagerConnectionProvider:99 : using pooled JDBC connection, pool size: 0
+19:12:55,559 DEBUG JDBCTransaction:59 : current autocommit status: false
+19:12:55,559 DEBUG JDBCContext:190 : after transaction begin
+19:12:55,561 DEBUG QueryPlanCache:69 : unable to locate HQL query plan in cache; generating (from User where name = :uname)
+19:12:55,586 DEBUG QueryTranslatorImpl:236 : parse() - HQL: from model.User where name = :uname
+19:12:55,592 DEBUG AST:252 : --- HQL AST ---
+ \-[QUERY] 'query'
+    +-[SELECT_FROM] 'SELECT_FROM'
+    |  \-[FROM] 'from'
+    |     \-[RANGE] 'RANGE'
+    |        \-[DOT] '.'
+    |           +-[IDENT] 'model'
+    |           \-[IDENT] 'User'
+    \-[WHERE] 'where'
+       \-[EQ] '='
+          +-[IDENT] 'name'
+          \-[COLON] ':'
+             \-[IDENT] 'uname'
+
+19:12:55,592 DEBUG ErrorCounter:68 : throwQueryException() : no errors
+19:12:55,609 DEBUG HqlSqlBaseWalker:111 : select << begin [level=1, statement=select]
+19:12:55,618 DEBUG FromElement:104 : FromClause{level=1} :  model.User (no alias) -> user0_
+19:12:55,619 DEBUG HqlSqlWalker:412 : attempting to resolve property [name] as a non-qualified ref
+19:12:55,619 DEBUG FromReferenceNode:51 : Resolved :  {synthetic-alias} -> {synthetic-alias}
+19:12:55,619 DEBUG DotNode:541 : getDataType() : name -> org.hibernate.type.StringType@3e6dac3d
+19:12:55,620 DEBUG FromReferenceNode:51 : Resolved :  {synthetic-alias}.name -> user0_.name
+19:12:55,621 DEBUG HqlSqlBaseWalker:117 : select : finishing up [level=1, statement=select]
+19:12:55,621 DEBUG HqlSqlWalker:446 : processQuery() :  ( SELECT ( FromClause{level=1} users user0_ ) ( where ( = ( user0_.name {synthetic-alias} name ) ? ) ) )
+19:12:55,624 DEBUG HqlSqlWalker:648 : Derived SELECT clause created.
+19:12:55,627 DEBUG JoinProcessor:128 : Using FROM fragment [users user0_]
+19:12:55,627 DEBUG HqlSqlBaseWalker:123 : select >> end [level=1, statement=select]
+19:12:55,644 DEBUG AST:222 : --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (users)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'user0_.id as id0_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=users,tableAlias=user0_,origin=null,colums={,className=model.User}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'user0_.name as name0_, user0_.password as password0_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[user0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'users user0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=users,tableAlias=user0_,origin=null,colums={,className=model.User}}
+    \-[WHERE] SqlNode: 'where'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[DOT] DotNode: 'user0_.name' {propertyName=name,dereferenceType=4,propertyPath=name,path={synthetic-alias}.name,tableAlias=user0_,className=model.User,classAlias=null}
+          |  +-[IDENT] IdentNode: '{synthetic-alias}' {originalText={synthetic-alias}}
+          |  \-[IDENT] IdentNode: 'name' {originalText=name}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=uname, expectedType=org.hibernate.type.StringType@3e6dac3d}
+
+19:12:55,644 DEBUG ErrorCounter:68 : throwQueryException() : no errors
+19:12:55,652 DEBUG QueryTranslatorImpl:206 : HQL: from model.User where name = :uname
+19:12:55,652 DEBUG QueryTranslatorImpl:207 : SQL: select user0_.id as id0_, user0_.name as name0_, user0_.password as password0_ from users user0_ where user0_.name=?
+19:12:55,652 DEBUG ErrorCounter:68 : throwQueryException() : no errors
+19:12:55,656 DEBUG HQLQueryPlan:219 : HQL param location recognition took 1 mills (from User where name = :uname)
+19:12:55,660 DEBUG QueryPlanCache:75 : located HQL query plan in cache (from User where name = :uname)
+19:12:55,660 DEBUG HQLQueryPlan:148 : find: from User where name = :uname
+19:12:55,661 DEBUG QueryParameters:262 : named parameters: {uname=apple}
+19:12:55,662 DEBUG AbstractBatcher:311 : about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+19:12:55,663 DEBUG SQL:346 : 
+    select
+        user0_.id as id0_,
+        user0_.name as name0_,
+        user0_.password as password0_ 
+    from
+        users user0_ 
+    where
+        user0_.name=?
+19:12:55,664 DEBUG AbstractBatcher:424 : preparing statement
+19:12:55,668 DEBUG QueryLoader:485 : bindNamedParameters() apple -> uname [1]
+19:12:55,668 DEBUG StringType:79 : binding 'apple' to parameter: 1
+19:12:55,669 DEBUG AbstractBatcher:327 : about to open ResultSet (open ResultSets: 0, globally: 0)
+19:12:55,669 DEBUG Loader:682 : processing result set
+19:12:55,669 DEBUG Loader:687 : result set row: 0
+19:12:55,670 DEBUG LongType:123 : returning '1' as column: id0_
+19:12:55,677 DEBUG Loader:1164 : result row: EntityKey[model.User#1]
+19:12:55,678 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#1]
+19:12:55,682 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#1]
+19:12:55,682 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:12:55,683 DEBUG StringType:123 : returning '123456' as column: password0_
+19:12:55,684 DEBUG Loader:687 : result set row: 1
+19:12:55,685 DEBUG LongType:123 : returning '2' as column: id0_
+19:12:55,685 DEBUG Loader:1164 : result row: EntityKey[model.User#2]
+19:12:55,686 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#2]
+19:12:55,686 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#2]
+19:12:55,686 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:12:55,687 DEBUG StringType:123 : returning '123456' as column: password0_
+19:12:55,687 DEBUG Loader:687 : result set row: 2
+19:12:55,687 DEBUG LongType:123 : returning '3' as column: id0_
+19:12:55,688 DEBUG Loader:1164 : result row: EntityKey[model.User#3]
+19:12:55,688 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#3]
+19:12:55,688 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#3]
+19:12:55,689 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:12:55,689 DEBUG StringType:123 : returning '123456' as column: password0_
+19:12:55,689 DEBUG Loader:687 : result set row: 3
+19:12:55,690 DEBUG LongType:123 : returning '4' as column: id0_
+19:12:55,690 DEBUG Loader:1164 : result row: EntityKey[model.User#4]
+19:12:55,690 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#4]
+19:12:55,690 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#4]
+19:12:55,691 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:12:55,691 DEBUG StringType:123 : returning '123456' as column: password0_
+19:12:55,691 DEBUG Loader:687 : result set row: 4
+19:12:55,692 DEBUG LongType:123 : returning '5' as column: id0_
+19:12:55,692 DEBUG Loader:1164 : result row: EntityKey[model.User#5]
+19:12:55,692 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#5]
+19:12:55,693 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#5]
+19:12:55,693 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:12:55,693 DEBUG StringType:123 : returning '123456' as column: password0_
+19:12:55,693 DEBUG Loader:687 : result set row: 5
+19:12:55,694 DEBUG LongType:123 : returning '6' as column: id0_
+19:12:55,694 DEBUG Loader:1164 : result row: EntityKey[model.User#6]
+19:12:55,694 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#6]
+19:12:55,695 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#6]
+19:12:55,695 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:12:55,695 DEBUG StringType:123 : returning '123456' as column: password0_
+19:12:55,696 DEBUG Loader:687 : result set row: 6
+19:12:55,696 DEBUG LongType:123 : returning '7' as column: id0_
+19:12:55,696 DEBUG Loader:1164 : result row: EntityKey[model.User#7]
+19:12:55,696 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#7]
+19:12:55,697 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#7]
+19:12:55,697 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:12:55,697 DEBUG StringType:123 : returning '123456' as column: password0_
+19:12:55,698 DEBUG Loader:687 : result set row: 7
+19:12:55,698 DEBUG LongType:123 : returning '8' as column: id0_
+19:12:55,698 DEBUG Loader:1164 : result row: EntityKey[model.User#8]
+19:12:55,698 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#8]
+19:12:55,699 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#8]
+19:12:55,699 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:12:55,699 DEBUG StringType:123 : returning '123456' as column: password0_
+19:12:55,700 DEBUG Loader:709 : done processing result set (8 rows)
+19:12:55,700 DEBUG AbstractBatcher:334 : about to close ResultSet (open ResultSets: 1, globally: 1)
+19:12:55,700 DEBUG AbstractBatcher:319 : about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+19:12:55,700 DEBUG AbstractBatcher:470 : closing statement
+19:12:55,702 DEBUG Loader:839 : total objects hydrated: 8
+19:12:55,702 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#1]
+19:12:55,704 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#1]
+19:12:55,704 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#2]
+19:12:55,705 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#2]
+19:12:55,705 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#3]
+19:12:55,705 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#3]
+19:12:55,705 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#4]
+19:12:55,706 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#4]
+19:12:55,706 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#5]
+19:12:55,706 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#5]
+19:12:55,706 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#6]
+19:12:55,707 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#6]
+19:12:55,707 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#7]
+19:12:55,707 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#7]
+19:12:55,707 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#8]
+19:12:55,707 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#8]
+19:12:55,708 DEBUG StatefulPersistenceContext:821 : initializing non-lazy collections
+19:14:07,736  INFO Environment:479 : Hibernate 3.1.2
+19:14:07,742  INFO Environment:509 : hibernate.properties not found
+19:14:07,745  INFO Environment:525 : using CGLIB reflection optimizer
+19:14:07,747  INFO Environment:555 : using JDK 1.4 java.sql.Timestamp handling
+19:14:07,780  INFO Configuration:1308 : configuring from resource: /hibernate.cfg.xml
+19:14:07,781  INFO Configuration:1285 : Configuration resource: /hibernate.cfg.xml
+19:14:07,819 DEBUG DTDEntityResolver:42 : trying to locate http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath under org/hibernate/
+19:14:07,820 DEBUG DTDEntityResolver:56 : found http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath
+19:14:07,836 DEBUG Configuration:1269 : show_sql=true
+19:14:07,837 DEBUG Configuration:1269 : format_sql=true
+19:14:07,837 DEBUG Configuration:1269 : dialect=dialect.SQLiteDialect
+19:14:07,837 DEBUG Configuration:1269 : connection.driver_class=org.sqlite.JDBC
+19:14:07,838 DEBUG Configuration:1269 : connection.url=jdbc:sqlite:1.db
+19:14:07,838 DEBUG Configuration:1269 : connection.username=
+19:14:07,839 DEBUG Configuration:1269 : connection.password=
+19:14:07,839 DEBUG Configuration:1464 : null<-org.dom4j.tree.DefaultAttribute@29d0eefb [Attribute: name resource value "User.hbm.xml"]
+19:14:07,840  INFO Configuration:469 : Reading mappings from resource: User.hbm.xml
+19:14:07,842 DEBUG DTDEntityResolver:42 : trying to locate http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd in classpath under org/hibernate/
+19:14:07,844 DEBUG DTDEntityResolver:56 : found http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd in classpath
+19:14:07,924  INFO HbmBinder:309 : Mapping class: model.User -> users
+19:14:07,929 DEBUG HbmBinder:1261 : Mapped property: id -> id
+19:14:07,935 DEBUG HbmBinder:1261 : Mapped property: name -> name
+19:14:07,935 DEBUG HbmBinder:1261 : Mapped property: password -> password
+19:14:07,936  INFO Configuration:1419 : Configured SessionFactory: null
+19:14:07,936 DEBUG Configuration:1420 : properties: {hibernate.connection.password=, java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=/home/sumit/jdk1.7.0_51/jre/lib/amd64, java.vm.version=24.51-b03, hibernate.connection.username=, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=IN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/sumit/hdbstudio/HibernateSQLite, java.runtime.version=1.7.0_51-b13, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/home/sumit/jdk1.7.0_51/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Linux, sun.jnu.encoding=UTF-8, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=51.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=3.8.0-35-generic, connection.password=, user.home=/home/sumit, user.timezone=Asia/Kolkata, connection.username=, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.7, hibernate.format_sql=true, hibernate.connection.driver_class=org.sqlite.JDBC, show_sql=true, user.name=sumit, java.class.path=/home/sumit/hdbstudio/HibernateSQLite/target/classes:/home/sumit/hdbstudio/HibernateSQLite/antlr.jar:/home/sumit/hdbstudio/HibernateSQLite/asm.jar:/home/sumit/hdbstudio/HibernateSQLite/asm-attrs.jar:/home/sumit/hdbstudio/HibernateSQLite/c3p0-0.9.0.jar:/home/sumit/hdbstudio/HibernateSQLite/cglib-2.1.3.jar:/home/sumit/hdbstudio/HibernateSQLite/commons-collections-2.1.1.jar:/home/sumit/hdbstudio/HibernateSQLite/commons-logging-1.0.4.jar:/home/sumit/hdbstudio/HibernateSQLite/dom4j-1.6.1.jar:/home/sumit/hdbstudio/HibernateSQLite/ehcache-1.1.jar:/home/sumit/hdbstudio/HibernateSQLite/hibernate3.jar:/home/sumit/hdbstudio/HibernateSQLite/jta.jar:/home/sumit/hdbstudio/HibernateSQLite/junit-4.4.jar:/home/sumit/hdbstudio/HibernateSQLite/log4j-1.2.9.jar:/home/sumit/hdbstudio/HibernateSQLite/xml-apis.jar:/home/sumit/hdbstudio/HibernateSQLite/sqlite-jdbc-3.6.0.jar, format_sql=true, hibernate.show_sql=true, java.vm.specification.version=1.7, sun.java.command=runner.HibernateExampleRunner, java.home=/home/sumit/jdk1.7.0_51/jre, sun.arch.data.model=64, hibernate.connection.url=jdbc:sqlite:1.db, hibernate.dialect=dialect.SQLiteDialect, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.X11.XToolkit, hibernate.cglib.use_reflection_optimizer=true, java.vm.info=mixed mode, java.version=1.7.0_51, java.ext.dirs=/home/sumit/jdk1.7.0_51/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/home/sumit/jdk1.7.0_51/jre/lib/resources.jar:/home/sumit/jdk1.7.0_51/jre/lib/rt.jar:/home/sumit/jdk1.7.0_51/jre/lib/sunrsasign.jar:/home/sumit/jdk1.7.0_51/jre/lib/jsse.jar:/home/sumit/jdk1.7.0_51/jre/lib/jce.jar:/home/sumit/jdk1.7.0_51/jre/lib/charsets.jar:/home/sumit/jdk1.7.0_51/jre/lib/jfr.jar:/home/sumit/jdk1.7.0_51/jre/classes, java.vendor=Oracle Corporation, connection.driver_class=org.sqlite.JDBC, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=gnome, connection.url=jdbc:sqlite:1.db, dialect=dialect.SQLiteDialect, sun.cpu.isalist=}
+19:14:07,937 DEBUG Configuration:1167 : Preparing to build session factory with filters : {}
+19:14:07,937 DEBUG Configuration:1002 : processing extends queue
+19:14:07,937 DEBUG Configuration:1006 : processing collection mappings
+19:14:07,937 DEBUG Configuration:1017 : processing native query and ResultSetMapping mappings
+19:14:07,938 DEBUG Configuration:1025 : processing association property references
+19:14:07,938 DEBUG Configuration:1047 : processing foreign key constraints
+19:14:07,970  INFO DriverManagerConnectionProvider:41 : Using Hibernate built-in connection pool (not for production use!)
+19:14:07,970  INFO DriverManagerConnectionProvider:42 : Hibernate connection pool size: 20
+19:14:07,971  INFO DriverManagerConnectionProvider:45 : autocommit mode: false
+19:14:07,975  INFO DriverManagerConnectionProvider:80 : using driver: org.sqlite.JDBC at URL: jdbc:sqlite:1.db
+19:14:07,975  INFO DriverManagerConnectionProvider:83 : connection properties: {user=, password=}
+19:14:07,975 DEBUG DriverManagerConnectionProvider:93 : total checked-out connections: 0
+19:14:07,975 DEBUG DriverManagerConnectionProvider:109 : opening new JDBC connection
+19:14:08,115 DEBUG DriverManagerConnectionProvider:115 : created connection to: jdbc:sqlite:1.db, Isolation Level: 8
+19:14:08,118  INFO SettingsFactory:77 : RDBMS: SQLite, version: 3.6.0
+19:14:08,119  INFO SettingsFactory:78 : JDBC driver: SQLiteJDBC, version: native
+19:14:08,119 DEBUG DriverManagerConnectionProvider:129 : returning connection to pool, pool size: 1
+19:14:08,130  INFO Dialect:103 : Using dialect: dialect.SQLiteDialect
+19:14:08,133  INFO TransactionFactoryFactory:31 : Using default transaction strategy (direct JDBC transactions)
+19:14:08,134  INFO TransactionManagerLookupFactory:33 : No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+19:14:08,135  INFO SettingsFactory:125 : Automatic flush during beforeCompletion(): disabled
+19:14:08,135  INFO SettingsFactory:129 : Automatic session close at end of transaction: disabled
+19:14:08,136  INFO SettingsFactory:144 : Scrollable result sets: disabled
+19:14:08,136 DEBUG SettingsFactory:148 : Wrap result sets: disabled
+19:14:08,136  INFO SettingsFactory:152 : JDBC3 getGeneratedKeys(): disabled
+19:14:08,136  INFO SettingsFactory:160 : Connection release mode: auto
+19:14:08,137  INFO SettingsFactory:187 : Default batch fetch size: 1
+19:14:08,137  INFO SettingsFactory:191 : Generate SQL with comments: disabled
+19:14:08,137  INFO SettingsFactory:195 : Order SQL updates by primary key: disabled
+19:14:08,137  INFO SettingsFactory:338 : Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+19:14:08,139  INFO ASTQueryTranslatorFactory:24 : Using ASTQueryTranslatorFactory
+19:14:08,139  INFO SettingsFactory:203 : Query language substitutions: {}
+19:14:08,140  INFO SettingsFactory:209 : Second-level cache: enabled
+19:14:08,140  INFO SettingsFactory:213 : Query cache: disabled
+19:14:08,140  INFO SettingsFactory:325 : Cache provider: org.hibernate.cache.EhCacheProvider
+19:14:08,142  INFO SettingsFactory:228 : Optimize cache for minimal puts: disabled
+19:14:08,142  INFO SettingsFactory:237 : Structured second-level cache entries: disabled
+19:14:08,143 DEBUG SQLExceptionConverterFactory:52 : Using dialect defined converter
+19:14:08,145  INFO SettingsFactory:257 : Echoing all SQL to stdout
+19:14:08,145  INFO SettingsFactory:264 : Statistics: disabled
+19:14:08,145  INFO SettingsFactory:268 : Deleted entity synthetic identifier rollback: disabled
+19:14:08,146  INFO SettingsFactory:283 : Default entity-mode: pojo
+19:14:08,165  INFO SessionFactoryImpl:153 : building session factory
+19:14:08,165 DEBUG SessionFactoryImpl:164 : Session factory constructed with filter configurations : {}
+19:14:08,165 DEBUG SessionFactoryImpl:167 : instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.password=, sun.boot.library.path=/home/sumit/jdk1.7.0_51/jre/lib/amd64, java.vm.version=24.51-b03, hibernate.connection.username=, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=IN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/sumit/hdbstudio/HibernateSQLite, java.runtime.version=1.7.0_51-b13, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/home/sumit/jdk1.7.0_51/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Linux, sun.jnu.encoding=UTF-8, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=51.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=3.8.0-35-generic, user.home=/home/sumit, connection.password=, user.timezone=Asia/Kolkata, java.awt.printerjob=sun.print.PSPrinterJob, connection.username=, java.specification.version=1.7, file.encoding=UTF-8, hibernate.format_sql=true, hibernate.connection.driver_class=org.sqlite.JDBC, show_sql=true, java.class.path=/home/sumit/hdbstudio/HibernateSQLite/target/classes:/home/sumit/hdbstudio/HibernateSQLite/antlr.jar:/home/sumit/hdbstudio/HibernateSQLite/asm.jar:/home/sumit/hdbstudio/HibernateSQLite/asm-attrs.jar:/home/sumit/hdbstudio/HibernateSQLite/c3p0-0.9.0.jar:/home/sumit/hdbstudio/HibernateSQLite/cglib-2.1.3.jar:/home/sumit/hdbstudio/HibernateSQLite/commons-collections-2.1.1.jar:/home/sumit/hdbstudio/HibernateSQLite/commons-logging-1.0.4.jar:/home/sumit/hdbstudio/HibernateSQLite/dom4j-1.6.1.jar:/home/sumit/hdbstudio/HibernateSQLite/ehcache-1.1.jar:/home/sumit/hdbstudio/HibernateSQLite/hibernate3.jar:/home/sumit/hdbstudio/HibernateSQLite/jta.jar:/home/sumit/hdbstudio/HibernateSQLite/junit-4.4.jar:/home/sumit/hdbstudio/HibernateSQLite/log4j-1.2.9.jar:/home/sumit/hdbstudio/HibernateSQLite/xml-apis.jar:/home/sumit/hdbstudio/HibernateSQLite/sqlite-jdbc-3.6.0.jar, user.name=sumit, format_sql=true, hibernate.show_sql=true, java.vm.specification.version=1.7, sun.arch.data.model=64, java.home=/home/sumit/jdk1.7.0_51/jre, sun.java.command=runner.HibernateExampleRunner, hibernate.dialect=dialect.SQLiteDialect, hibernate.connection.url=jdbc:sqlite:1.db, java.specification.vendor=Oracle Corporation, user.language=en, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, hibernate.cglib.use_reflection_optimizer=true, java.version=1.7.0_51, java.ext.dirs=/home/sumit/jdk1.7.0_51/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/home/sumit/jdk1.7.0_51/jre/lib/resources.jar:/home/sumit/jdk1.7.0_51/jre/lib/rt.jar:/home/sumit/jdk1.7.0_51/jre/lib/sunrsasign.jar:/home/sumit/jdk1.7.0_51/jre/lib/jsse.jar:/home/sumit/jdk1.7.0_51/jre/lib/jce.jar:/home/sumit/jdk1.7.0_51/jre/lib/charsets.jar:/home/sumit/jdk1.7.0_51/jre/lib/jfr.jar:/home/sumit/jdk1.7.0_51/jre/classes, java.vendor=Oracle Corporation, file.separator=/, connection.driver_class=org.sqlite.JDBC, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=gnome, connection.url=jdbc:sqlite:1.db, sun.cpu.isalist=, dialect=dialect.SQLiteDialect}
+19:14:08,172 DEBUG CacheManager:191 : Creating new CacheManager with default config
+19:14:08,174 DEBUG CacheManager:164 : Configuring ehcache from classpath.
+19:14:08,176  WARN Configurator:126 : No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/home/sumit/hdbstudio/HibernateSQLite/ehcache-1.1.jar!/ehcache-failsafe.xml
+19:14:08,179 DEBUG Configuration$DiskStore:185 : Disk Store Path: /tmp
+19:14:08,338 DEBUG AbstractEntityPersister:2447 : Static SQL for entity: model.User
+19:14:08,338 DEBUG AbstractEntityPersister:2449 :  Version select: select id from users where id =?
+19:14:08,339 DEBUG AbstractEntityPersister:2450 :  Snapshot select: select user_.id, user_.name as name0_, user_.password as password0_ from users user_ where user_.id=?
+19:14:08,339 DEBUG AbstractEntityPersister:2452 :  Insert 0: insert into users (name, password, id) values (?, ?, ?)
+19:14:08,339 DEBUG AbstractEntityPersister:2453 :  Update 0: update users set name=?, password=? where id=?
+19:14:08,339 DEBUG AbstractEntityPersister:2454 :  Delete 0: delete from users where id=?
+19:14:08,339 DEBUG AbstractEntityPersister:2457 :  Identity insert: insert into users (name, password) values (?, ?)
+19:14:08,349 DEBUG EntityLoader:79 : Static select for entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+19:14:08,350 DEBUG EntityLoader:79 : Static select for entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+19:14:08,350 DEBUG EntityLoader:79 : Static select for entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+19:14:08,351 DEBUG EntityLoader:79 : Static select for entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+19:14:08,355 DEBUG EntityLoader:67 : Static select for action ACTION_MERGE on entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+19:14:08,355 DEBUG EntityLoader:67 : Static select for action ACTION_REFRESH on entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+19:14:08,357 DEBUG SessionFactoryObjectFactory:39 : initializing class SessionFactoryObjectFactory
+19:14:08,358 DEBUG SessionFactoryObjectFactory:76 : registered: ff80818144882ff40144882ff5a30000 (unnamed)
+19:14:08,358  INFO SessionFactoryObjectFactory:82 : Not binding factory to JNDI, no JNDI name configured
+19:14:08,358 DEBUG SessionFactoryImpl:292 : instantiated session factory
+19:14:08,359 DEBUG SessionFactoryImpl:353 : Checking 0 named HQL queries
+19:14:08,359 DEBUG SessionFactoryImpl:373 : Checking 0 named SQL queries
+19:14:08,376 DEBUG SessionImpl:273 : opened session at timestamp: 5709227001282560
+19:14:08,377 DEBUG JDBCTransaction:54 : begin
+19:14:08,377 DEBUG ConnectionManager:358 : opening JDBC connection
+19:14:08,377 DEBUG DriverManagerConnectionProvider:93 : total checked-out connections: 0
+19:14:08,377 DEBUG DriverManagerConnectionProvider:99 : using pooled JDBC connection, pool size: 0
+19:14:08,377 DEBUG JDBCTransaction:59 : current autocommit status: false
+19:14:08,378 DEBUG JDBCContext:190 : after transaction begin
+19:14:08,379 DEBUG QueryPlanCache:69 : unable to locate HQL query plan in cache; generating (from User where name = :uname)
+19:14:08,404 DEBUG QueryTranslatorImpl:236 : parse() - HQL: from model.User where name = :uname
+19:14:08,410 DEBUG AST:252 : --- HQL AST ---
+ \-[QUERY] 'query'
+    +-[SELECT_FROM] 'SELECT_FROM'
+    |  \-[FROM] 'from'
+    |     \-[RANGE] 'RANGE'
+    |        \-[DOT] '.'
+    |           +-[IDENT] 'model'
+    |           \-[IDENT] 'User'
+    \-[WHERE] 'where'
+       \-[EQ] '='
+          +-[IDENT] 'name'
+          \-[COLON] ':'
+             \-[IDENT] 'uname'
+
+19:14:08,410 DEBUG ErrorCounter:68 : throwQueryException() : no errors
+19:14:08,428 DEBUG HqlSqlBaseWalker:111 : select << begin [level=1, statement=select]
+19:14:08,437 DEBUG FromElement:104 : FromClause{level=1} :  model.User (no alias) -> user0_
+19:14:08,438 DEBUG HqlSqlWalker:412 : attempting to resolve property [name] as a non-qualified ref
+19:14:08,438 DEBUG FromReferenceNode:51 : Resolved :  {synthetic-alias} -> {synthetic-alias}
+19:14:08,438 DEBUG DotNode:541 : getDataType() : name -> org.hibernate.type.StringType@1246f8d0
+19:14:08,439 DEBUG FromReferenceNode:51 : Resolved :  {synthetic-alias}.name -> user0_.name
+19:14:08,440 DEBUG HqlSqlBaseWalker:117 : select : finishing up [level=1, statement=select]
+19:14:08,440 DEBUG HqlSqlWalker:446 : processQuery() :  ( SELECT ( FromClause{level=1} users user0_ ) ( where ( = ( user0_.name {synthetic-alias} name ) ? ) ) )
+19:14:08,444 DEBUG HqlSqlWalker:648 : Derived SELECT clause created.
+19:14:08,446 DEBUG JoinProcessor:128 : Using FROM fragment [users user0_]
+19:14:08,446 DEBUG HqlSqlBaseWalker:123 : select >> end [level=1, statement=select]
+19:14:08,449 DEBUG AST:222 : --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (users)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'user0_.id as id0_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=users,tableAlias=user0_,origin=null,colums={,className=model.User}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'user0_.name as name0_, user0_.password as password0_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[user0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'users user0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=users,tableAlias=user0_,origin=null,colums={,className=model.User}}
+    \-[WHERE] SqlNode: 'where'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[DOT] DotNode: 'user0_.name' {propertyName=name,dereferenceType=4,propertyPath=name,path={synthetic-alias}.name,tableAlias=user0_,className=model.User,classAlias=null}
+          |  +-[IDENT] IdentNode: '{synthetic-alias}' {originalText={synthetic-alias}}
+          |  \-[IDENT] IdentNode: 'name' {originalText=name}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=uname, expectedType=org.hibernate.type.StringType@1246f8d0}
+
+19:14:08,449 DEBUG ErrorCounter:68 : throwQueryException() : no errors
+19:14:08,454 DEBUG QueryTranslatorImpl:206 : HQL: from model.User where name = :uname
+19:14:08,454 DEBUG QueryTranslatorImpl:207 : SQL: select user0_.id as id0_, user0_.name as name0_, user0_.password as password0_ from users user0_ where user0_.name=?
+19:14:08,454 DEBUG ErrorCounter:68 : throwQueryException() : no errors
+19:14:08,458 DEBUG HQLQueryPlan:219 : HQL param location recognition took 1 mills (from User where name = :uname)
+19:14:08,462 DEBUG QueryPlanCache:75 : located HQL query plan in cache (from User where name = :uname)
+19:14:08,462 DEBUG HQLQueryPlan:148 : find: from User where name = :uname
+19:14:08,463 DEBUG QueryParameters:262 : named parameters: {uname=apple}
+19:14:08,464 DEBUG AbstractBatcher:311 : about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+19:14:08,465 DEBUG SQL:346 : 
+    select
+        user0_.id as id0_,
+        user0_.name as name0_,
+        user0_.password as password0_ 
+    from
+        users user0_ 
+    where
+        user0_.name=?
+19:14:08,466 DEBUG AbstractBatcher:424 : preparing statement
+19:14:08,471 DEBUG QueryLoader:485 : bindNamedParameters() apple -> uname [1]
+19:14:08,471 DEBUG StringType:79 : binding 'apple' to parameter: 1
+19:14:08,471 DEBUG AbstractBatcher:327 : about to open ResultSet (open ResultSets: 0, globally: 0)
+19:14:08,472 DEBUG Loader:682 : processing result set
+19:14:08,472 DEBUG Loader:687 : result set row: 0
+19:14:08,473 DEBUG LongType:123 : returning '1' as column: id0_
+19:14:08,480 DEBUG Loader:1164 : result row: EntityKey[model.User#1]
+19:14:08,480 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#1]
+19:14:08,485 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#1]
+19:14:08,485 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:14:08,486 DEBUG StringType:123 : returning '123456' as column: password0_
+19:14:08,487 DEBUG Loader:687 : result set row: 1
+19:14:08,487 DEBUG LongType:123 : returning '2' as column: id0_
+19:14:08,488 DEBUG Loader:1164 : result row: EntityKey[model.User#2]
+19:14:08,488 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#2]
+19:14:08,488 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#2]
+19:14:08,489 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:14:08,489 DEBUG StringType:123 : returning '123456' as column: password0_
+19:14:08,490 DEBUG Loader:687 : result set row: 2
+19:14:08,490 DEBUG LongType:123 : returning '3' as column: id0_
+19:14:08,490 DEBUG Loader:1164 : result row: EntityKey[model.User#3]
+19:14:08,491 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#3]
+19:14:08,491 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#3]
+19:14:08,491 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:14:08,492 DEBUG StringType:123 : returning '123456' as column: password0_
+19:14:08,492 DEBUG Loader:687 : result set row: 3
+19:14:08,492 DEBUG LongType:123 : returning '4' as column: id0_
+19:14:08,493 DEBUG Loader:1164 : result row: EntityKey[model.User#4]
+19:14:08,493 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#4]
+19:14:08,493 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#4]
+19:14:08,493 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:14:08,494 DEBUG StringType:123 : returning '123456' as column: password0_
+19:14:08,494 DEBUG Loader:687 : result set row: 4
+19:14:08,494 DEBUG LongType:123 : returning '5' as column: id0_
+19:14:08,495 DEBUG Loader:1164 : result row: EntityKey[model.User#5]
+19:14:08,495 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#5]
+19:14:08,495 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#5]
+19:14:08,496 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:14:08,496 DEBUG StringType:123 : returning '123456' as column: password0_
+19:14:08,496 DEBUG Loader:687 : result set row: 5
+19:14:08,497 DEBUG LongType:123 : returning '6' as column: id0_
+19:14:08,497 DEBUG Loader:1164 : result row: EntityKey[model.User#6]
+19:14:08,497 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#6]
+19:14:08,497 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#6]
+19:14:08,498 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:14:08,498 DEBUG StringType:123 : returning '123456' as column: password0_
+19:14:08,498 DEBUG Loader:687 : result set row: 6
+19:14:08,499 DEBUG LongType:123 : returning '7' as column: id0_
+19:14:08,499 DEBUG Loader:1164 : result row: EntityKey[model.User#7]
+19:14:08,499 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#7]
+19:14:08,499 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#7]
+19:14:08,500 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:14:08,500 DEBUG StringType:123 : returning '123456' as column: password0_
+19:14:08,500 DEBUG Loader:687 : result set row: 7
+19:14:08,501 DEBUG LongType:123 : returning '8' as column: id0_
+19:14:08,501 DEBUG Loader:1164 : result row: EntityKey[model.User#8]
+19:14:08,501 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#8]
+19:14:08,501 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#8]
+19:14:08,502 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:14:08,502 DEBUG StringType:123 : returning '123456' as column: password0_
+19:14:08,502 DEBUG Loader:709 : done processing result set (8 rows)
+19:14:08,503 DEBUG AbstractBatcher:334 : about to close ResultSet (open ResultSets: 1, globally: 1)
+19:14:08,503 DEBUG AbstractBatcher:319 : about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+19:14:08,503 DEBUG AbstractBatcher:470 : closing statement
+19:14:08,505 DEBUG Loader:839 : total objects hydrated: 8
+19:14:08,505 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#1]
+19:14:08,507 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#1]
+19:14:08,507 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#2]
+19:14:08,508 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#2]
+19:14:08,508 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#3]
+19:14:08,508 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#3]
+19:14:08,509 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#4]
+19:14:08,509 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#4]
+19:14:08,509 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#5]
+19:14:08,509 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#5]
+19:14:08,510 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#6]
+19:14:08,510 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#6]
+19:14:08,510 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#7]
+19:14:08,510 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#7]
+19:14:08,510 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#8]
+19:14:08,511 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#8]
+19:14:08,511 DEBUG StatefulPersistenceContext:821 : initializing non-lazy collections
+19:14:08,513 DEBUG DefaultSaveOrUpdateEventListener:105 : ignoring persistent instance
+19:14:08,514 DEBUG DefaultSaveOrUpdateEventListener:142 : object already associated with session: [model.User#1]
+19:14:08,514 DEBUG DefaultSaveOrUpdateEventListener:105 : ignoring persistent instance
+19:14:08,514 DEBUG DefaultSaveOrUpdateEventListener:142 : object already associated with session: [model.User#2]
+19:14:08,514 DEBUG DefaultSaveOrUpdateEventListener:105 : ignoring persistent instance
+19:14:08,515 DEBUG DefaultSaveOrUpdateEventListener:142 : object already associated with session: [model.User#3]
+19:14:08,515 DEBUG DefaultSaveOrUpdateEventListener:105 : ignoring persistent instance
+19:14:08,515 DEBUG DefaultSaveOrUpdateEventListener:142 : object already associated with session: [model.User#4]
+19:14:08,515 DEBUG DefaultSaveOrUpdateEventListener:105 : ignoring persistent instance
+19:14:08,515 DEBUG DefaultSaveOrUpdateEventListener:142 : object already associated with session: [model.User#5]
+19:14:08,516 DEBUG DefaultSaveOrUpdateEventListener:105 : ignoring persistent instance
+19:14:08,516 DEBUG DefaultSaveOrUpdateEventListener:142 : object already associated with session: [model.User#6]
+19:14:08,516 DEBUG DefaultSaveOrUpdateEventListener:105 : ignoring persistent instance
+19:14:08,516 DEBUG DefaultSaveOrUpdateEventListener:142 : object already associated with session: [model.User#7]
+19:14:08,517 DEBUG DefaultSaveOrUpdateEventListener:105 : ignoring persistent instance
+19:14:08,517 DEBUG DefaultSaveOrUpdateEventListener:142 : object already associated with session: [model.User#8]
+19:14:08,517 DEBUG JDBCTransaction:103 : commit
+19:14:08,517 DEBUG SessionImpl:355 : automatically flushing session
+19:14:08,517 DEBUG AbstractFlushingEventListener:58 : flushing session
+19:14:08,518 DEBUG AbstractFlushingEventListener:111 : processing flush-time cascades
+19:14:08,521 DEBUG AbstractFlushingEventListener:153 : dirty checking collections
+19:14:08,521 DEBUG AbstractFlushingEventListener:170 : Flushing entities and processing referenced collections
+19:14:08,524 DEBUG AbstractEntityPersister:2863 : model.User.password is dirty
+19:14:08,525 DEBUG DefaultFlushEntityEventListener:222 : Updating entity: [model.User#1]
+19:14:08,527 DEBUG AbstractEntityPersister:2863 : model.User.password is dirty
+19:14:08,528 DEBUG DefaultFlushEntityEventListener:222 : Updating entity: [model.User#2]
+19:14:08,528 DEBUG AbstractEntityPersister:2863 : model.User.password is dirty
+19:14:08,528 DEBUG DefaultFlushEntityEventListener:222 : Updating entity: [model.User#3]
+19:14:08,529 DEBUG AbstractEntityPersister:2863 : model.User.password is dirty
+19:14:08,529 DEBUG DefaultFlushEntityEventListener:222 : Updating entity: [model.User#4]
+19:14:08,529 DEBUG AbstractEntityPersister:2863 : model.User.password is dirty
+19:14:08,529 DEBUG DefaultFlushEntityEventListener:222 : Updating entity: [model.User#5]
+19:14:08,530 DEBUG AbstractEntityPersister:2863 : model.User.password is dirty
+19:14:08,530 DEBUG DefaultFlushEntityEventListener:222 : Updating entity: [model.User#6]
+19:14:08,530 DEBUG AbstractEntityPersister:2863 : model.User.password is dirty
+19:14:08,530 DEBUG DefaultFlushEntityEventListener:222 : Updating entity: [model.User#7]
+19:14:08,531 DEBUG AbstractEntityPersister:2863 : model.User.password is dirty
+19:14:08,531 DEBUG DefaultFlushEntityEventListener:222 : Updating entity: [model.User#8]
+19:14:08,531 DEBUG AbstractFlushingEventListener:209 : Processing unreferenced collections
+19:14:08,531 DEBUG AbstractFlushingEventListener:223 : Scheduling collection removes/(re)creates/updates
+19:14:08,531 DEBUG AbstractFlushingEventListener:85 : Flushed: 0 insertions, 8 updates, 0 deletions to 8 objects
+19:14:08,532 DEBUG AbstractFlushingEventListener:91 : Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+19:14:08,532 DEBUG Printer:83 : listing entities:
+19:14:08,532 DEBUG Printer:90 : model.User{id=7, name=apple, password=ChangedPWD}
+19:14:08,532 DEBUG Printer:90 : model.User{id=8, name=apple, password=ChangedPWD}
+19:14:08,533 DEBUG Printer:90 : model.User{id=2, name=apple, password=ChangedPWD}
+19:14:08,533 DEBUG Printer:90 : model.User{id=1, name=apple, password=ChangedPWD}
+19:14:08,533 DEBUG Printer:90 : model.User{id=6, name=apple, password=ChangedPWD}
+19:14:08,533 DEBUG Printer:90 : model.User{id=5, name=apple, password=ChangedPWD}
+19:14:08,534 DEBUG Printer:90 : model.User{id=4, name=apple, password=ChangedPWD}
+19:14:08,535 DEBUG Printer:90 : model.User{id=3, name=apple, password=ChangedPWD}
+19:14:08,535 DEBUG AbstractFlushingEventListener:289 : executing flush
+19:14:08,535 DEBUG AbstractEntityPersister:2149 : Updating entity: [model.User#1]
+19:14:08,535 DEBUG AbstractBatcher:311 : about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+19:14:08,536 DEBUG SQL:346 : 
+    update
+        users 
+    set
+        name=?,
+        password=? 
+    where
+        id=?
+19:14:08,536 DEBUG AbstractBatcher:424 : preparing statement
+19:14:08,537 DEBUG AbstractEntityPersister:1821 : Dehydrating entity: [model.User#1]
+19:14:08,537 DEBUG StringType:79 : binding 'apple' to parameter: 1
+19:14:08,537 DEBUG StringType:79 : binding 'ChangedPWD' to parameter: 2
+19:14:08,538 DEBUG LongType:79 : binding '1' to parameter: 3
+19:14:08,538 DEBUG AbstractEntityPersister:2149 : Updating entity: [model.User#2]
+19:14:08,539 DEBUG AbstractBatcher:175 : reusing prepared statement
+19:14:08,539 DEBUG SQL:346 : 
+    update
+        users 
+    set
+        name=?,
+        password=? 
+    where
+        id=?
+19:14:08,539 DEBUG AbstractEntityPersister:1821 : Dehydrating entity: [model.User#2]
+19:14:08,540 DEBUG StringType:79 : binding 'apple' to parameter: 1
+19:14:08,540 DEBUG StringType:79 : binding 'ChangedPWD' to parameter: 2
+19:14:08,540 DEBUG LongType:79 : binding '2' to parameter: 3
+19:14:08,540 DEBUG AbstractEntityPersister:2149 : Updating entity: [model.User#3]
+19:14:08,540 DEBUG AbstractBatcher:175 : reusing prepared statement
+19:14:08,541 DEBUG SQL:346 : 
+    update
+        users 
+    set
+        name=?,
+        password=? 
+    where
+        id=?
+19:14:08,541 DEBUG AbstractEntityPersister:1821 : Dehydrating entity: [model.User#3]
+19:14:08,541 DEBUG StringType:79 : binding 'apple' to parameter: 1
+19:14:08,541 DEBUG StringType:79 : binding 'ChangedPWD' to parameter: 2
+19:14:08,541 DEBUG LongType:79 : binding '3' to parameter: 3
+19:14:08,542 DEBUG AbstractEntityPersister:2149 : Updating entity: [model.User#4]
+19:14:08,542 DEBUG AbstractBatcher:175 : reusing prepared statement
+19:14:08,542 DEBUG SQL:346 : 
+    update
+        users 
+    set
+        name=?,
+        password=? 
+    where
+        id=?
+19:14:08,542 DEBUG AbstractEntityPersister:1821 : Dehydrating entity: [model.User#4]
+19:14:08,542 DEBUG StringType:79 : binding 'apple' to parameter: 1
+19:14:08,543 DEBUG StringType:79 : binding 'ChangedPWD' to parameter: 2
+19:14:08,543 DEBUG LongType:79 : binding '4' to parameter: 3
+19:14:08,543 DEBUG AbstractEntityPersister:2149 : Updating entity: [model.User#5]
+19:14:08,543 DEBUG AbstractBatcher:175 : reusing prepared statement
+19:14:08,543 DEBUG SQL:346 : 
+    update
+        users 
+    set
+        name=?,
+        password=? 
+    where
+        id=?
+19:14:08,544 DEBUG AbstractEntityPersister:1821 : Dehydrating entity: [model.User#5]
+19:14:08,544 DEBUG StringType:79 : binding 'apple' to parameter: 1
+19:14:08,544 DEBUG StringType:79 : binding 'ChangedPWD' to parameter: 2
+19:14:08,544 DEBUG LongType:79 : binding '5' to parameter: 3
+19:14:08,544 DEBUG AbstractEntityPersister:2149 : Updating entity: [model.User#6]
+19:14:08,544 DEBUG AbstractBatcher:175 : reusing prepared statement
+19:14:08,545 DEBUG SQL:346 : 
+    update
+        users 
+    set
+        name=?,
+        password=? 
+    where
+        id=?
+19:14:08,545 DEBUG AbstractEntityPersister:1821 : Dehydrating entity: [model.User#6]
+19:14:08,545 DEBUG StringType:79 : binding 'apple' to parameter: 1
+19:14:08,545 DEBUG StringType:79 : binding 'ChangedPWD' to parameter: 2
+19:14:08,545 DEBUG LongType:79 : binding '6' to parameter: 3
+19:14:08,546 DEBUG AbstractEntityPersister:2149 : Updating entity: [model.User#7]
+19:14:08,546 DEBUG AbstractBatcher:175 : reusing prepared statement
+19:14:08,546 DEBUG SQL:346 : 
+    update
+        users 
+    set
+        name=?,
+        password=? 
+    where
+        id=?
+19:14:08,546 DEBUG AbstractEntityPersister:1821 : Dehydrating entity: [model.User#7]
+19:14:08,546 DEBUG StringType:79 : binding 'apple' to parameter: 1
+19:14:08,546 DEBUG StringType:79 : binding 'ChangedPWD' to parameter: 2
+19:14:08,547 DEBUG LongType:79 : binding '7' to parameter: 3
+19:14:08,547 DEBUG AbstractEntityPersister:2149 : Updating entity: [model.User#8]
+19:14:08,547 DEBUG AbstractBatcher:175 : reusing prepared statement
+19:14:08,547 DEBUG SQL:346 : 
+    update
+        users 
+    set
+        name=?,
+        password=? 
+    where
+        id=?
+19:14:08,547 DEBUG AbstractEntityPersister:1821 : Dehydrating entity: [model.User#8]
+19:14:08,548 DEBUG StringType:79 : binding 'apple' to parameter: 1
+19:14:08,548 DEBUG StringType:79 : binding 'ChangedPWD' to parameter: 2
+19:14:08,548 DEBUG LongType:79 : binding '8' to parameter: 3
+19:14:08,548 DEBUG AbstractBatcher:319 : about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+19:14:08,548 DEBUG AbstractBatcher:470 : closing statement
+19:14:08,548 DEBUG AbstractFlushingEventListener:316 : post flush
+19:14:08,549 DEBUG JDBCContext:181 : before transaction completion
+19:14:08,549 DEBUG SessionImpl:411 : before transaction completion
+19:14:08,671 DEBUG JDBCTransaction:116 : committed JDBC Connection
+19:14:08,672 DEBUG JDBCContext:195 : after transaction completion
+19:14:08,672 DEBUG ConnectionManager:341 : aggressively releasing JDBC connection
+19:14:08,672 DEBUG ConnectionManager:378 : releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+19:14:08,674 DEBUG DriverManagerConnectionProvider:129 : returning connection to pool, pool size: 1
+19:14:08,674 DEBUG SessionImpl:442 : after transaction completion
+19:14:08,674 DEBUG SessionImpl:291 : closing session
+19:14:08,675 DEBUG ConnectionManager:312 : connection already null in cleanup : no action
+19:14:08,675  INFO SessionFactoryImpl:728 : closing
+19:14:08,675  INFO DriverManagerConnectionProvider:147 : cleaning up connection pool: jdbc:sqlite:1.db
+19:20:10,264  INFO Environment:479 : Hibernate 3.1.2
+19:20:10,271  INFO Environment:509 : hibernate.properties not found
+19:20:10,273  INFO Environment:525 : using CGLIB reflection optimizer
+19:20:10,275  INFO Environment:555 : using JDK 1.4 java.sql.Timestamp handling
+19:20:10,307  INFO Configuration:1308 : configuring from resource: /hibernate.cfg.xml
+19:20:10,308  INFO Configuration:1285 : Configuration resource: /hibernate.cfg.xml
+19:20:10,346 DEBUG DTDEntityResolver:42 : trying to locate http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath under org/hibernate/
+19:20:10,347 DEBUG DTDEntityResolver:56 : found http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath
+19:20:10,363 DEBUG Configuration:1269 : show_sql=true
+19:20:10,364 DEBUG Configuration:1269 : format_sql=true
+19:20:10,364 DEBUG Configuration:1269 : dialect=dialect.SQLiteDialect
+19:20:10,365 DEBUG Configuration:1269 : connection.driver_class=org.sqlite.JDBC
+19:20:10,365 DEBUG Configuration:1269 : connection.url=jdbc:sqlite:1.db
+19:20:10,366 DEBUG Configuration:1269 : connection.username=
+19:20:10,366 DEBUG Configuration:1269 : connection.password=
+19:20:10,367 DEBUG Configuration:1464 : null<-org.dom4j.tree.DefaultAttribute@2f27f2bb [Attribute: name resource value "User.hbm.xml"]
+19:20:10,367  INFO Configuration:469 : Reading mappings from resource: User.hbm.xml
+19:20:10,370 DEBUG DTDEntityResolver:42 : trying to locate http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd in classpath under org/hibernate/
+19:20:10,371 DEBUG DTDEntityResolver:56 : found http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd in classpath
+19:20:10,453  INFO HbmBinder:309 : Mapping class: model.User -> users
+19:20:10,457 DEBUG HbmBinder:1261 : Mapped property: id -> id
+19:20:10,463 DEBUG HbmBinder:1261 : Mapped property: name -> name
+19:20:10,463 DEBUG HbmBinder:1261 : Mapped property: password -> password
+19:20:10,464  INFO Configuration:1419 : Configured SessionFactory: null
+19:20:10,464 DEBUG Configuration:1420 : properties: {hibernate.connection.password=, java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=/home/sumit/jdk1.7.0_51/jre/lib/amd64, java.vm.version=24.51-b03, hibernate.connection.username=, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=IN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/sumit/hdbstudio/HibernateSQLite, java.runtime.version=1.7.0_51-b13, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/home/sumit/jdk1.7.0_51/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Linux, sun.jnu.encoding=UTF-8, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=51.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=3.8.0-35-generic, connection.password=, user.home=/home/sumit, user.timezone=Asia/Kolkata, connection.username=, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.7, hibernate.format_sql=true, hibernate.connection.driver_class=org.sqlite.JDBC, show_sql=true, user.name=sumit, java.class.path=/home/sumit/hdbstudio/HibernateSQLite/target/classes:/home/sumit/hdbstudio/HibernateSQLite/antlr.jar:/home/sumit/hdbstudio/HibernateSQLite/asm.jar:/home/sumit/hdbstudio/HibernateSQLite/asm-attrs.jar:/home/sumit/hdbstudio/HibernateSQLite/c3p0-0.9.0.jar:/home/sumit/hdbstudio/HibernateSQLite/cglib-2.1.3.jar:/home/sumit/hdbstudio/HibernateSQLite/commons-collections-2.1.1.jar:/home/sumit/hdbstudio/HibernateSQLite/commons-logging-1.0.4.jar:/home/sumit/hdbstudio/HibernateSQLite/dom4j-1.6.1.jar:/home/sumit/hdbstudio/HibernateSQLite/ehcache-1.1.jar:/home/sumit/hdbstudio/HibernateSQLite/hibernate3.jar:/home/sumit/hdbstudio/HibernateSQLite/jta.jar:/home/sumit/hdbstudio/HibernateSQLite/junit-4.4.jar:/home/sumit/hdbstudio/HibernateSQLite/log4j-1.2.9.jar:/home/sumit/hdbstudio/HibernateSQLite/xml-apis.jar:/home/sumit/hdbstudio/HibernateSQLite/sqlite-jdbc-3.6.0.jar, format_sql=true, hibernate.show_sql=true, java.vm.specification.version=1.7, sun.java.command=runner.HibernateExampleRunner, java.home=/home/sumit/jdk1.7.0_51/jre, sun.arch.data.model=64, hibernate.connection.url=jdbc:sqlite:1.db, hibernate.dialect=dialect.SQLiteDialect, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.X11.XToolkit, hibernate.cglib.use_reflection_optimizer=true, java.vm.info=mixed mode, java.version=1.7.0_51, java.ext.dirs=/home/sumit/jdk1.7.0_51/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/home/sumit/jdk1.7.0_51/jre/lib/resources.jar:/home/sumit/jdk1.7.0_51/jre/lib/rt.jar:/home/sumit/jdk1.7.0_51/jre/lib/sunrsasign.jar:/home/sumit/jdk1.7.0_51/jre/lib/jsse.jar:/home/sumit/jdk1.7.0_51/jre/lib/jce.jar:/home/sumit/jdk1.7.0_51/jre/lib/charsets.jar:/home/sumit/jdk1.7.0_51/jre/lib/jfr.jar:/home/sumit/jdk1.7.0_51/jre/classes, java.vendor=Oracle Corporation, connection.driver_class=org.sqlite.JDBC, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=gnome, connection.url=jdbc:sqlite:1.db, dialect=dialect.SQLiteDialect, sun.cpu.isalist=}
+19:20:10,465 DEBUG Configuration:1167 : Preparing to build session factory with filters : {}
+19:20:10,465 DEBUG Configuration:1002 : processing extends queue
+19:20:10,466 DEBUG Configuration:1006 : processing collection mappings
+19:20:10,466 DEBUG Configuration:1017 : processing native query and ResultSetMapping mappings
+19:20:10,466 DEBUG Configuration:1025 : processing association property references
+19:20:10,466 DEBUG Configuration:1047 : processing foreign key constraints
+19:20:10,499  INFO DriverManagerConnectionProvider:41 : Using Hibernate built-in connection pool (not for production use!)
+19:20:10,500  INFO DriverManagerConnectionProvider:42 : Hibernate connection pool size: 20
+19:20:10,500  INFO DriverManagerConnectionProvider:45 : autocommit mode: false
+19:20:10,504  INFO DriverManagerConnectionProvider:80 : using driver: org.sqlite.JDBC at URL: jdbc:sqlite:1.db
+19:20:10,504  INFO DriverManagerConnectionProvider:83 : connection properties: {user=, password=}
+19:20:10,505 DEBUG DriverManagerConnectionProvider:93 : total checked-out connections: 0
+19:20:10,505 DEBUG DriverManagerConnectionProvider:109 : opening new JDBC connection
+19:20:10,646 DEBUG DriverManagerConnectionProvider:115 : created connection to: jdbc:sqlite:1.db, Isolation Level: 8
+19:20:10,649  INFO SettingsFactory:77 : RDBMS: SQLite, version: 3.6.0
+19:20:10,650  INFO SettingsFactory:78 : JDBC driver: SQLiteJDBC, version: native
+19:20:10,650 DEBUG DriverManagerConnectionProvider:129 : returning connection to pool, pool size: 1
+19:20:10,660  INFO Dialect:103 : Using dialect: dialect.SQLiteDialect
+19:20:10,664  INFO TransactionFactoryFactory:31 : Using default transaction strategy (direct JDBC transactions)
+19:20:10,665  INFO TransactionManagerLookupFactory:33 : No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+19:20:10,665  INFO SettingsFactory:125 : Automatic flush during beforeCompletion(): disabled
+19:20:10,665  INFO SettingsFactory:129 : Automatic session close at end of transaction: disabled
+19:20:10,666  INFO SettingsFactory:144 : Scrollable result sets: disabled
+19:20:10,666 DEBUG SettingsFactory:148 : Wrap result sets: disabled
+19:20:10,667  INFO SettingsFactory:152 : JDBC3 getGeneratedKeys(): disabled
+19:20:10,667  INFO SettingsFactory:160 : Connection release mode: auto
+19:20:10,667  INFO SettingsFactory:187 : Default batch fetch size: 1
+19:20:10,668  INFO SettingsFactory:191 : Generate SQL with comments: disabled
+19:20:10,668  INFO SettingsFactory:195 : Order SQL updates by primary key: disabled
+19:20:10,668  INFO SettingsFactory:338 : Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+19:20:10,670  INFO ASTQueryTranslatorFactory:24 : Using ASTQueryTranslatorFactory
+19:20:10,670  INFO SettingsFactory:203 : Query language substitutions: {}
+19:20:10,670  INFO SettingsFactory:209 : Second-level cache: enabled
+19:20:10,671  INFO SettingsFactory:213 : Query cache: disabled
+19:20:10,671  INFO SettingsFactory:325 : Cache provider: org.hibernate.cache.EhCacheProvider
+19:20:10,673  INFO SettingsFactory:228 : Optimize cache for minimal puts: disabled
+19:20:10,673  INFO SettingsFactory:237 : Structured second-level cache entries: disabled
+19:20:10,673 DEBUG SQLExceptionConverterFactory:52 : Using dialect defined converter
+19:20:10,676  INFO SettingsFactory:257 : Echoing all SQL to stdout
+19:20:10,676  INFO SettingsFactory:264 : Statistics: disabled
+19:20:10,676  INFO SettingsFactory:268 : Deleted entity synthetic identifier rollback: disabled
+19:20:10,676  INFO SettingsFactory:283 : Default entity-mode: pojo
+19:20:10,695  INFO SessionFactoryImpl:153 : building session factory
+19:20:10,696 DEBUG SessionFactoryImpl:164 : Session factory constructed with filter configurations : {}
+19:20:10,696 DEBUG SessionFactoryImpl:167 : instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.password=, sun.boot.library.path=/home/sumit/jdk1.7.0_51/jre/lib/amd64, java.vm.version=24.51-b03, hibernate.connection.username=, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=IN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/sumit/hdbstudio/HibernateSQLite, java.runtime.version=1.7.0_51-b13, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/home/sumit/jdk1.7.0_51/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Linux, sun.jnu.encoding=UTF-8, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=51.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=3.8.0-35-generic, user.home=/home/sumit, connection.password=, user.timezone=Asia/Kolkata, java.awt.printerjob=sun.print.PSPrinterJob, connection.username=, java.specification.version=1.7, file.encoding=UTF-8, hibernate.format_sql=true, hibernate.connection.driver_class=org.sqlite.JDBC, show_sql=true, java.class.path=/home/sumit/hdbstudio/HibernateSQLite/target/classes:/home/sumit/hdbstudio/HibernateSQLite/antlr.jar:/home/sumit/hdbstudio/HibernateSQLite/asm.jar:/home/sumit/hdbstudio/HibernateSQLite/asm-attrs.jar:/home/sumit/hdbstudio/HibernateSQLite/c3p0-0.9.0.jar:/home/sumit/hdbstudio/HibernateSQLite/cglib-2.1.3.jar:/home/sumit/hdbstudio/HibernateSQLite/commons-collections-2.1.1.jar:/home/sumit/hdbstudio/HibernateSQLite/commons-logging-1.0.4.jar:/home/sumit/hdbstudio/HibernateSQLite/dom4j-1.6.1.jar:/home/sumit/hdbstudio/HibernateSQLite/ehcache-1.1.jar:/home/sumit/hdbstudio/HibernateSQLite/hibernate3.jar:/home/sumit/hdbstudio/HibernateSQLite/jta.jar:/home/sumit/hdbstudio/HibernateSQLite/junit-4.4.jar:/home/sumit/hdbstudio/HibernateSQLite/log4j-1.2.9.jar:/home/sumit/hdbstudio/HibernateSQLite/xml-apis.jar:/home/sumit/hdbstudio/HibernateSQLite/sqlite-jdbc-3.6.0.jar, user.name=sumit, format_sql=true, hibernate.show_sql=true, java.vm.specification.version=1.7, sun.arch.data.model=64, java.home=/home/sumit/jdk1.7.0_51/jre, sun.java.command=runner.HibernateExampleRunner, hibernate.dialect=dialect.SQLiteDialect, hibernate.connection.url=jdbc:sqlite:1.db, java.specification.vendor=Oracle Corporation, user.language=en, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, hibernate.cglib.use_reflection_optimizer=true, java.version=1.7.0_51, java.ext.dirs=/home/sumit/jdk1.7.0_51/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/home/sumit/jdk1.7.0_51/jre/lib/resources.jar:/home/sumit/jdk1.7.0_51/jre/lib/rt.jar:/home/sumit/jdk1.7.0_51/jre/lib/sunrsasign.jar:/home/sumit/jdk1.7.0_51/jre/lib/jsse.jar:/home/sumit/jdk1.7.0_51/jre/lib/jce.jar:/home/sumit/jdk1.7.0_51/jre/lib/charsets.jar:/home/sumit/jdk1.7.0_51/jre/lib/jfr.jar:/home/sumit/jdk1.7.0_51/jre/classes, java.vendor=Oracle Corporation, file.separator=/, connection.driver_class=org.sqlite.JDBC, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=gnome, connection.url=jdbc:sqlite:1.db, sun.cpu.isalist=, dialect=dialect.SQLiteDialect}
+19:20:10,704 DEBUG CacheManager:191 : Creating new CacheManager with default config
+19:20:10,706 DEBUG CacheManager:164 : Configuring ehcache from classpath.
+19:20:10,709  WARN Configurator:126 : No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/home/sumit/hdbstudio/HibernateSQLite/ehcache-1.1.jar!/ehcache-failsafe.xml
+19:20:10,713 DEBUG Configuration$DiskStore:185 : Disk Store Path: /tmp
+19:20:10,848 DEBUG AbstractEntityPersister:2447 : Static SQL for entity: model.User
+19:20:10,848 DEBUG AbstractEntityPersister:2449 :  Version select: select id from users where id =?
+19:20:10,848 DEBUG AbstractEntityPersister:2450 :  Snapshot select: select user_.id, user_.name as name0_, user_.password as password0_ from users user_ where user_.id=?
+19:20:10,849 DEBUG AbstractEntityPersister:2452 :  Insert 0: insert into users (name, password, id) values (?, ?, ?)
+19:20:10,849 DEBUG AbstractEntityPersister:2453 :  Update 0: update users set name=?, password=? where id=?
+19:20:10,849 DEBUG AbstractEntityPersister:2454 :  Delete 0: delete from users where id=?
+19:20:10,849 DEBUG AbstractEntityPersister:2457 :  Identity insert: insert into users (name, password) values (?, ?)
+19:20:10,860 DEBUG EntityLoader:79 : Static select for entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+19:20:10,860 DEBUG EntityLoader:79 : Static select for entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+19:20:10,861 DEBUG EntityLoader:79 : Static select for entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+19:20:10,861 DEBUG EntityLoader:79 : Static select for entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+19:20:10,865 DEBUG EntityLoader:67 : Static select for action ACTION_MERGE on entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+19:20:10,865 DEBUG EntityLoader:67 : Static select for action ACTION_REFRESH on entity model.User: select user0_.id as id0_0_, user0_.name as name0_0_, user0_.password as password0_0_ from users user0_ where user0_.id=?
+19:20:10,867 DEBUG SessionFactoryObjectFactory:39 : initializing class SessionFactoryObjectFactory
+19:20:10,868 DEBUG SessionFactoryObjectFactory:76 : registered: ff8081814488357c014488357db20000 (unnamed)
+19:20:10,868  INFO SessionFactoryObjectFactory:82 : Not binding factory to JNDI, no JNDI name configured
+19:20:10,868 DEBUG SessionFactoryImpl:292 : instantiated session factory
+19:20:10,869 DEBUG SessionFactoryImpl:353 : Checking 0 named HQL queries
+19:20:10,869 DEBUG SessionFactoryImpl:373 : Checking 0 named SQL queries
+19:20:10,886 DEBUG SessionImpl:273 : opened session at timestamp: 5709228486119424
+19:20:10,886 DEBUG JDBCTransaction:54 : begin
+19:20:10,887 DEBUG ConnectionManager:358 : opening JDBC connection
+19:20:10,887 DEBUG DriverManagerConnectionProvider:93 : total checked-out connections: 0
+19:20:10,887 DEBUG DriverManagerConnectionProvider:99 : using pooled JDBC connection, pool size: 0
+19:20:10,887 DEBUG JDBCTransaction:59 : current autocommit status: false
+19:20:10,887 DEBUG JDBCContext:190 : after transaction begin
+19:20:10,889 DEBUG QueryPlanCache:69 : unable to locate HQL query plan in cache; generating (from User where name = :uname)
+19:20:10,913 DEBUG QueryTranslatorImpl:236 : parse() - HQL: from model.User where name = :uname
+19:20:10,919 DEBUG AST:252 : --- HQL AST ---
+ \-[QUERY] 'query'
+    +-[SELECT_FROM] 'SELECT_FROM'
+    |  \-[FROM] 'from'
+    |     \-[RANGE] 'RANGE'
+    |        \-[DOT] '.'
+    |           +-[IDENT] 'model'
+    |           \-[IDENT] 'User'
+    \-[WHERE] 'where'
+       \-[EQ] '='
+          +-[IDENT] 'name'
+          \-[COLON] ':'
+             \-[IDENT] 'uname'
+
+19:20:10,920 DEBUG ErrorCounter:68 : throwQueryException() : no errors
+19:20:10,938 DEBUG HqlSqlBaseWalker:111 : select << begin [level=1, statement=select]
+19:20:10,946 DEBUG FromElement:104 : FromClause{level=1} :  model.User (no alias) -> user0_
+19:20:10,948 DEBUG HqlSqlWalker:412 : attempting to resolve property [name] as a non-qualified ref
+19:20:10,948 DEBUG FromReferenceNode:51 : Resolved :  {synthetic-alias} -> {synthetic-alias}
+19:20:10,948 DEBUG DotNode:541 : getDataType() : name -> org.hibernate.type.StringType@1246f8d0
+19:20:10,948 DEBUG FromReferenceNode:51 : Resolved :  {synthetic-alias}.name -> user0_.name
+19:20:10,950 DEBUG HqlSqlBaseWalker:117 : select : finishing up [level=1, statement=select]
+19:20:10,950 DEBUG HqlSqlWalker:446 : processQuery() :  ( SELECT ( FromClause{level=1} users user0_ ) ( where ( = ( user0_.name {synthetic-alias} name ) ? ) ) )
+19:20:10,953 DEBUG HqlSqlWalker:648 : Derived SELECT clause created.
+19:20:10,956 DEBUG JoinProcessor:128 : Using FROM fragment [users user0_]
+19:20:10,956 DEBUG HqlSqlBaseWalker:123 : select >> end [level=1, statement=select]
+19:20:10,958 DEBUG AST:222 : --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (users)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'user0_.id as id0_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=users,tableAlias=user0_,origin=null,colums={,className=model.User}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'user0_.name as name0_, user0_.password as password0_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[user0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'users user0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=users,tableAlias=user0_,origin=null,colums={,className=model.User}}
+    \-[WHERE] SqlNode: 'where'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[DOT] DotNode: 'user0_.name' {propertyName=name,dereferenceType=4,propertyPath=name,path={synthetic-alias}.name,tableAlias=user0_,className=model.User,classAlias=null}
+          |  +-[IDENT] IdentNode: '{synthetic-alias}' {originalText={synthetic-alias}}
+          |  \-[IDENT] IdentNode: 'name' {originalText=name}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=uname, expectedType=org.hibernate.type.StringType@1246f8d0}
+
+19:20:10,959 DEBUG ErrorCounter:68 : throwQueryException() : no errors
+19:20:10,964 DEBUG QueryTranslatorImpl:206 : HQL: from model.User where name = :uname
+19:20:10,964 DEBUG QueryTranslatorImpl:207 : SQL: select user0_.id as id0_, user0_.name as name0_, user0_.password as password0_ from users user0_ where user0_.name=?
+19:20:10,964 DEBUG ErrorCounter:68 : throwQueryException() : no errors
+19:20:10,968 DEBUG HQLQueryPlan:219 : HQL param location recognition took 1 mills (from User where name = :uname)
+19:20:10,972 DEBUG QueryPlanCache:75 : located HQL query plan in cache (from User where name = :uname)
+19:20:10,972 DEBUG HQLQueryPlan:148 : find: from User where name = :uname
+19:20:10,973 DEBUG QueryParameters:262 : named parameters: {uname=apple}
+19:20:10,973 DEBUG AbstractBatcher:311 : about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+19:20:10,975 DEBUG SQL:346 : 
+    select
+        user0_.id as id0_,
+        user0_.name as name0_,
+        user0_.password as password0_ 
+    from
+        users user0_ 
+    where
+        user0_.name=?
+19:20:10,975 DEBUG AbstractBatcher:424 : preparing statement
+19:20:10,981 DEBUG QueryLoader:485 : bindNamedParameters() apple -> uname [1]
+19:20:10,981 DEBUG StringType:79 : binding 'apple' to parameter: 1
+19:20:10,981 DEBUG AbstractBatcher:327 : about to open ResultSet (open ResultSets: 0, globally: 0)
+19:20:10,982 DEBUG Loader:682 : processing result set
+19:20:10,982 DEBUG Loader:687 : result set row: 0
+19:20:10,982 DEBUG LongType:123 : returning '1' as column: id0_
+19:20:10,990 DEBUG Loader:1164 : result row: EntityKey[model.User#1]
+19:20:10,991 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#1]
+19:20:10,994 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#1]
+19:20:10,995 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:20:10,995 DEBUG StringType:123 : returning 'ChangedPWD' as column: password0_
+19:20:10,996 DEBUG Loader:687 : result set row: 1
+19:20:10,996 DEBUG LongType:123 : returning '2' as column: id0_
+19:20:10,997 DEBUG Loader:1164 : result row: EntityKey[model.User#2]
+19:20:10,997 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#2]
+19:20:10,997 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#2]
+19:20:10,997 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:20:10,997 DEBUG StringType:123 : returning 'ChangedPWD' as column: password0_
+19:20:10,998 DEBUG Loader:687 : result set row: 2
+19:20:10,998 DEBUG LongType:123 : returning '3' as column: id0_
+19:20:10,998 DEBUG Loader:1164 : result row: EntityKey[model.User#3]
+19:20:10,998 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#3]
+19:20:10,998 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#3]
+19:20:10,999 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:20:10,999 DEBUG StringType:123 : returning 'ChangedPWD' as column: password0_
+19:20:10,999 DEBUG Loader:687 : result set row: 3
+19:20:10,999 DEBUG LongType:123 : returning '4' as column: id0_
+19:20:11,000 DEBUG Loader:1164 : result row: EntityKey[model.User#4]
+19:20:11,000 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#4]
+19:20:11,000 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#4]
+19:20:11,000 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:20:11,001 DEBUG StringType:123 : returning 'ChangedPWD' as column: password0_
+19:20:11,001 DEBUG Loader:687 : result set row: 4
+19:20:11,001 DEBUG LongType:123 : returning '5' as column: id0_
+19:20:11,001 DEBUG Loader:1164 : result row: EntityKey[model.User#5]
+19:20:11,002 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#5]
+19:20:11,002 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#5]
+19:20:11,002 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:20:11,002 DEBUG StringType:123 : returning 'ChangedPWD' as column: password0_
+19:20:11,003 DEBUG Loader:687 : result set row: 5
+19:20:11,003 DEBUG LongType:123 : returning '6' as column: id0_
+19:20:11,003 DEBUG Loader:1164 : result row: EntityKey[model.User#6]
+19:20:11,003 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#6]
+19:20:11,003 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#6]
+19:20:11,004 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:20:11,004 DEBUG StringType:123 : returning 'ChangedPWD' as column: password0_
+19:20:11,004 DEBUG Loader:687 : result set row: 6
+19:20:11,004 DEBUG LongType:123 : returning '7' as column: id0_
+19:20:11,005 DEBUG Loader:1164 : result row: EntityKey[model.User#7]
+19:20:11,005 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#7]
+19:20:11,005 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#7]
+19:20:11,005 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:20:11,006 DEBUG StringType:123 : returning 'ChangedPWD' as column: password0_
+19:20:11,006 DEBUG Loader:687 : result set row: 7
+19:20:11,006 DEBUG LongType:123 : returning '8' as column: id0_
+19:20:11,006 DEBUG Loader:1164 : result row: EntityKey[model.User#8]
+19:20:11,006 DEBUG Loader:1347 : Initializing object from ResultSet: [model.User#8]
+19:20:11,007 DEBUG AbstractEntityPersister:1860 : Hydrating entity: [model.User#8]
+19:20:11,007 DEBUG StringType:123 : returning 'apple' as column: name0_
+19:20:11,008 DEBUG StringType:123 : returning 'ChangedPWD' as column: password0_
+19:20:11,008 DEBUG Loader:709 : done processing result set (8 rows)
+19:20:11,009 DEBUG AbstractBatcher:334 : about to close ResultSet (open ResultSets: 1, globally: 1)
+19:20:11,009 DEBUG AbstractBatcher:319 : about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+19:20:11,009 DEBUG AbstractBatcher:470 : closing statement
+19:20:11,011 DEBUG Loader:839 : total objects hydrated: 8
+19:20:11,011 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#1]
+19:20:11,013 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#1]
+19:20:11,013 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#2]
+19:20:11,013 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#2]
+19:20:11,014 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#3]
+19:20:11,014 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#3]
+19:20:11,014 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#4]
+19:20:11,014 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#4]
+19:20:11,015 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#5]
+19:20:11,015 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#5]
+19:20:11,015 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#6]
+19:20:11,015 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#6]
+19:20:11,016 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#7]
+19:20:11,016 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#7]
+19:20:11,016 DEBUG TwoPhaseLoad:104 : resolving associations for [model.User#8]
+19:20:11,016 DEBUG TwoPhaseLoad:203 : done materializing entity [model.User#8]
+19:20:11,017 DEBUG StatefulPersistenceContext:821 : initializing non-lazy collections
+19:20:11,019 DEBUG DefaultDeleteEventListener:90 : deleting a persistent instance
+19:20:11,019 DEBUG DefaultDeleteEventListener:127 : deleting [model.User#1]
+19:20:11,019 DEBUG SessionImpl:1293 : setting cache mode to: GET
+19:20:11,021 DEBUG SessionImpl:1293 : setting cache mode to: NORMAL
+19:20:11,023 DEBUG SessionImpl:1293 : setting cache mode to: GET
+19:20:11,024 DEBUG SessionImpl:1293 : setting cache mode to: NORMAL
+19:20:11,024 DEBUG DefaultDeleteEventListener:90 : deleting a persistent instance
+19:20:11,024 DEBUG DefaultDeleteEventListener:127 : deleting [model.User#2]
+19:20:11,024 DEBUG SessionImpl:1293 : setting cache mode to: GET
+19:20:11,024 DEBUG SessionImpl:1293 : setting cache mode to: NORMAL
+19:20:11,024 DEBUG SessionImpl:1293 : setting cache mode to: GET
+19:20:11,024 DEBUG SessionImpl:1293 : setting cache mode to: NORMAL
+19:20:11,025 DEBUG DefaultDeleteEventListener:90 : deleting a persistent instance
+19:20:11,025 DEBUG DefaultDeleteEventListener:127 : deleting [model.User#3]
+19:20:11,025 DEBUG SessionImpl:1293 : setting cache mode to: GET
+19:20:11,025 DEBUG SessionImpl:1293 : setting cache mode to: NORMAL
+19:20:11,025 DEBUG SessionImpl:1293 : setting cache mode to: GET
+19:20:11,025 DEBUG SessionImpl:1293 : setting cache mode to: NORMAL
+19:20:11,025 DEBUG DefaultDeleteEventListener:90 : deleting a persistent instance
+19:20:11,026 DEBUG DefaultDeleteEventListener:127 : deleting [model.User#4]
+19:20:11,026 DEBUG SessionImpl:1293 : setting cache mode to: GET
+19:20:11,026 DEBUG SessionImpl:1293 : setting cache mode to: NORMAL
+19:20:11,026 DEBUG SessionImpl:1293 : setting cache mode to: GET
+19:20:11,026 DEBUG SessionImpl:1293 : setting cache mode to: NORMAL
+19:20:11,026 DEBUG DefaultDeleteEventListener:90 : deleting a persistent instance
+19:20:11,027 DEBUG DefaultDeleteEventListener:127 : deleting [model.User#5]
+19:20:11,027 DEBUG SessionImpl:1293 : setting cache mode to: GET
+19:20:11,027 DEBUG SessionImpl:1293 : setting cache mode to: NORMAL
+19:20:11,027 DEBUG SessionImpl:1293 : setting cache mode to: GET
+19:20:11,027 DEBUG SessionImpl:1293 : setting cache mode to: NORMAL
+19:20:11,027 DEBUG DefaultDeleteEventListener:90 : deleting a persistent instance
+19:20:11,027 DEBUG DefaultDeleteEventListener:127 : deleting [model.User#6]
+19:20:11,028 DEBUG SessionImpl:1293 : setting cache mode to: GET
+19:20:11,028 DEBUG SessionImpl:1293 : setting cache mode to: NORMAL
+19:20:11,028 DEBUG SessionImpl:1293 : setting cache mode to: GET
+19:20:11,028 DEBUG SessionImpl:1293 : setting cache mode to: NORMAL
+19:20:11,028 DEBUG DefaultDeleteEventListener:90 : deleting a persistent instance
+19:20:11,028 DEBUG DefaultDeleteEventListener:127 : deleting [model.User#7]
+19:20:11,028 DEBUG SessionImpl:1293 : setting cache mode to: GET
+19:20:11,029 DEBUG SessionImpl:1293 : setting cache mode to: NORMAL
+19:20:11,029 DEBUG SessionImpl:1293 : setting cache mode to: GET
+19:20:11,029 DEBUG SessionImpl:1293 : setting cache mode to: NORMAL
+19:20:11,029 DEBUG DefaultDeleteEventListener:90 : deleting a persistent instance
+19:20:11,029 DEBUG DefaultDeleteEventListener:127 : deleting [model.User#8]
+19:20:11,029 DEBUG SessionImpl:1293 : setting cache mode to: GET
+19:20:11,029 DEBUG SessionImpl:1293 : setting cache mode to: NORMAL
+19:20:11,030 DEBUG SessionImpl:1293 : setting cache mode to: GET
+19:20:11,030 DEBUG SessionImpl:1293 : setting cache mode to: NORMAL
+19:20:11,030 DEBUG JDBCTransaction:103 : commit
+19:20:11,030 DEBUG SessionImpl:355 : automatically flushing session
+19:20:11,030 DEBUG AbstractFlushingEventListener:58 : flushing session
+19:20:11,031 DEBUG AbstractFlushingEventListener:111 : processing flush-time cascades
+19:20:11,031 DEBUG AbstractFlushingEventListener:153 : dirty checking collections
+19:20:11,031 DEBUG AbstractFlushingEventListener:170 : Flushing entities and processing referenced collections
+19:20:11,034 DEBUG AbstractFlushingEventListener:209 : Processing unreferenced collections
+19:20:11,034 DEBUG AbstractFlushingEventListener:223 : Scheduling collection removes/(re)creates/updates
+19:20:11,034 DEBUG AbstractFlushingEventListener:85 : Flushed: 0 insertions, 0 updates, 8 deletions to 8 objects
+19:20:11,034 DEBUG AbstractFlushingEventListener:91 : Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+19:20:11,034 DEBUG Printer:83 : listing entities:
+19:20:11,034 DEBUG Printer:90 : model.User{id=7, name=apple, password=ChangedPWD}
+19:20:11,035 DEBUG Printer:90 : model.User{id=8, name=apple, password=ChangedPWD}
+19:20:11,035 DEBUG Printer:90 : model.User{id=2, name=apple, password=ChangedPWD}
+19:20:11,035 DEBUG Printer:90 : model.User{id=1, name=apple, password=ChangedPWD}
+19:20:11,035 DEBUG Printer:90 : model.User{id=6, name=apple, password=ChangedPWD}
+19:20:11,035 DEBUG Printer:90 : model.User{id=5, name=apple, password=ChangedPWD}
+19:20:11,035 DEBUG Printer:90 : model.User{id=4, name=apple, password=ChangedPWD}
+19:20:11,035 DEBUG Printer:90 : model.User{id=3, name=apple, password=ChangedPWD}
+19:20:11,036 DEBUG AbstractFlushingEventListener:289 : executing flush
+19:20:11,036 DEBUG AbstractEntityPersister:2249 : Deleting entity: [model.User#1]
+19:20:11,036 DEBUG AbstractBatcher:311 : about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+19:20:11,036 DEBUG SQL:346 : 
+    delete 
+    from
+        users 
+    where
+        id=?
+19:20:11,036 DEBUG AbstractBatcher:424 : preparing statement
+19:20:11,037 DEBUG LongType:79 : binding '1' to parameter: 1
+19:20:11,037 DEBUG AbstractEntityPersister:2249 : Deleting entity: [model.User#2]
+19:20:11,037 DEBUG AbstractBatcher:175 : reusing prepared statement
+19:20:11,038 DEBUG SQL:346 : 
+    delete 
+    from
+        users 
+    where
+        id=?
+19:20:11,038 DEBUG LongType:79 : binding '2' to parameter: 1
+19:20:11,038 DEBUG AbstractEntityPersister:2249 : Deleting entity: [model.User#3]
+19:20:11,038 DEBUG AbstractBatcher:175 : reusing prepared statement
+19:20:11,038 DEBUG SQL:346 : 
+    delete 
+    from
+        users 
+    where
+        id=?
+19:20:11,039 DEBUG LongType:79 : binding '3' to parameter: 1
+19:20:11,039 DEBUG AbstractEntityPersister:2249 : Deleting entity: [model.User#4]
+19:20:11,039 DEBUG AbstractBatcher:175 : reusing prepared statement
+19:20:11,039 DEBUG SQL:346 : 
+    delete 
+    from
+        users 
+    where
+        id=?
+19:20:11,040 DEBUG LongType:79 : binding '4' to parameter: 1
+19:20:11,040 DEBUG AbstractEntityPersister:2249 : Deleting entity: [model.User#5]
+19:20:11,040 DEBUG AbstractBatcher:175 : reusing prepared statement
+19:20:11,040 DEBUG SQL:346 : 
+    delete 
+    from
+        users 
+    where
+        id=?
+19:20:11,040 DEBUG LongType:79 : binding '5' to parameter: 1
+19:20:11,041 DEBUG AbstractEntityPersister:2249 : Deleting entity: [model.User#6]
+19:20:11,041 DEBUG AbstractBatcher:175 : reusing prepared statement
+19:20:11,041 DEBUG SQL:346 : 
+    delete 
+    from
+        users 
+    where
+        id=?
+19:20:11,041 DEBUG LongType:79 : binding '6' to parameter: 1
+19:20:11,041 DEBUG AbstractEntityPersister:2249 : Deleting entity: [model.User#7]
+19:20:11,042 DEBUG AbstractBatcher:175 : reusing prepared statement
+19:20:11,042 DEBUG SQL:346 : 
+    delete 
+    from
+        users 
+    where
+        id=?
+19:20:11,042 DEBUG LongType:79 : binding '7' to parameter: 1
+19:20:11,042 DEBUG AbstractEntityPersister:2249 : Deleting entity: [model.User#8]
+19:20:11,042 DEBUG AbstractBatcher:175 : reusing prepared statement
+19:20:11,043 DEBUG SQL:346 : 
+    delete 
+    from
+        users 
+    where
+        id=?
+19:20:11,043 DEBUG LongType:79 : binding '8' to parameter: 1
+19:20:11,043 DEBUG AbstractBatcher:319 : about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+19:20:11,043 DEBUG AbstractBatcher:470 : closing statement
+19:20:11,043 DEBUG AbstractFlushingEventListener:316 : post flush
+19:20:11,043 DEBUG JDBCContext:181 : before transaction completion
+19:20:11,044 DEBUG SessionImpl:411 : before transaction completion
+19:20:11,171 DEBUG JDBCTransaction:116 : committed JDBC Connection
+19:20:11,171 DEBUG JDBCContext:195 : after transaction completion
+19:20:11,171 DEBUG ConnectionManager:341 : aggressively releasing JDBC connection
+19:20:11,172 DEBUG ConnectionManager:378 : releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+19:20:11,173 DEBUG DriverManagerConnectionProvider:129 : returning connection to pool, pool size: 1
+19:20:11,173 DEBUG SessionImpl:442 : after transaction completion
+19:20:11,174 DEBUG SessionImpl:291 : closing session
+19:20:11,174 DEBUG ConnectionManager:312 : connection already null in cleanup : no action
+19:20:11,174  INFO SessionFactoryImpl:728 : closing
+19:20:11,175  INFO DriverManagerConnectionProvider:147 : cleaning up connection pool: jdbc:sqlite:1.db
