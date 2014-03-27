@@ -8,6 +8,6 @@
  
 <body>
 	<h2>Congratulations, <s:property value="username" />!</h2>
-	Welcome to Struts 2 world.
+	<p>You've been logged in successfully</p>
 </body>
 </html>

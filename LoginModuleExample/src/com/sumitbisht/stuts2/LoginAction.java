@@ -5,32 +5,28 @@ import com.opensymphony.xwork2.ActionSupport;
 public class LoginAction extends ActionSupport {
 	private String username;
 	private String password;
-@Override
-	public String execute()
-	{
-		
-	if (this.username.equals("admin") && this.password.equals("admin")) {
-		return "success";
-	} else {
-		addActionError(getText("error.login"));
-		// a function from ActionSupport, to get properties values from
-		// properties file
-		// we will explore this below.
-		return "error";
+
+//	@Override
+	public String execute() {
+
+		if (this.username.equals("admin") && this.password.equals("admin")) {
+			return "success";
+		} else {
+			addActionError(getText("error.login"));
+			return "error";
+		}
+
+	}
+
+	public String mymethod() {
+		System.out.println("Basic Controller Running");
+		return SUCCESS;
 	}
 	
-	}
 	
 	
+	// JavaBean methods
 
-
-public String mymethod()
-{
-	System.out.println("hello");
-	return SUCCESS;
-}
-
-	
 	public String getUsername() {
 		return username;
 	}

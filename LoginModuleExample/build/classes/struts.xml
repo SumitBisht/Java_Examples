@@ -2,29 +2,27 @@
 <!DOCTYPE struts PUBLIC
     "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
     "http://struts.apache.org/dtds/struts-2.0.dtd">
- 
-<struts>
-	
- 
-	<package name="default" namespace="/" extends="struts-default">
- 
- 
 
- 
- <action name="login" class="com.sumitbisht.stuts2.LoginAction" >
+<struts>
+
+
+	<package name="default" namespace="/" extends="struts-default">
+
+		<action name="login" class="com.sumitbisht.stuts2.LoginAction">
 			<result name="success">Welcome.jsp</result>
-						<result name="error">error.jsp</result>
-			
+			<result name="error">Error.jsp</result>
+
 		</action>
-		
-		
-		<action name="login1" class="com.sumitbisht.stuts2.LoginAction"  method="mymethod">
+
+
+		<action name="login1" class="com.sumitbisht.stuts2.LoginAction"
+			method="mymethod">
 			<result name="success">Welcome.jsp</result>
-						
-			
+
+
 		</action>
-		
-		
+
+
 	</package>
 </struts>
 
