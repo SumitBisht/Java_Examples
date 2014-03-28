@@ -19,7 +19,7 @@ public class LoginAction extends ActionSupport {
 	}
 
 	public String mymethod() {
-		System.out.println("Basic Controller Running");
+		System.out.println("Basic Controller Running..");
 		return SUCCESS;
 	}
 	
