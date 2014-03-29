@@ -6,4 +6,21 @@
   <name>Tiles integration with  Struts2</name>
   <description>This project uses maven to manage dependency</description>
   <packaging>war</packaging>
+  <dependencies>
+	<dependency>
+		<groupId>org.apache.struts</groupId>
+		<artifactId>struts2-core</artifactId>
+    	<version>2.3.15.1</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.apache.struts</groupId>
+	    <artifactId>struts2-convention-plugin</artifactId>
+	    <version>2.3.15.1</version>
+	</dependency>
+	<dependency>
+		<groupId>org.apache.struts</groupId>
+		<artifactId>struts2-tiles-plugin</artifactId>
+		<version>2.3.15.1</version>
+	</dependency>
+</dependencies>
 </project>
