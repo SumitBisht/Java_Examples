@@ -6,18 +6,26 @@ public class LoginAction extends ActionSupport {
 	private String username;
 	private String password;
 
-	public String authenticate() {
+//	@Override
+	public String execute() {
 
 		if (this.username.equals("admin") && this.password.equals("admin")) {
 			return "success";
 		} else {
 			addActionError(getText("error.login"));
-			// a function from ActionSupport, to get properties values from
-			// properties file
-			// we will explore this below.
 			return "error";
 		}
+
 	}
+
+	public String mymethod() {
+		System.out.println("Basic Controller Running..");
+		return SUCCESS;
+	}
+	
+	
+	
+	// JavaBean methods
 
 	public String getUsername() {
 		return username;
